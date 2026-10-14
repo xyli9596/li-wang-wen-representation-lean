@@ -1,0 +1,108 @@
+{
+  "paper": {
+    "authors": "X.-Y. Li, J. Wang, Z.-T. Wen",
+    "title": "Representation of finite-order solutions to linear differential equations with exponential-sum coefficients",
+    "journal": "Journal of Differential Equations 423 (2025), 118–132",
+    "doi": "10.1016/j.jde.2024.12.035"
+  },
+  "scope": "The seven numbered main results listed below and the supplementary Lemma 5.2 prime; examples and unrelated CRG Theorem 1.1 excluded.",
+  "verification": "verification/verification.json",
+  "proof_route_audit": "verification/proof-routes.json",
+  "entries": [
+    {
+      "paper_item": "Theorem 3.1",
+      "page": 122,
+      "files": [
+        "LiWangWenMatrix31.lean",
+        "LiWangWenTheorem31.lean"
+      ],
+      "entry": "LiWangWen.theorem_3_1",
+      "route": "shared",
+      "alignment": "Literal row·Q·M·P polynomial operator equals the shifted Euler operator; equivalence with the actual ODE for exp(a*z)*u(exp z), including entirety and finite order. Q uses falling factorials, M uses Stirling numbers of the second kind.",
+      "qualification": "A fixed unnormalized exponent need not be an indicial root. Root conclusion uses u(0) != 0, obtained by absorbing the zero order of a nonzero u into the exponent."
+    },
+    {
+      "paper_item": "Theorem 3.2",
+      "pages": [
+        122,
+        123
+      ],
+      "files": [
+        "LiWangWenTheorem32.lean"
+      ],
+      "direct": "LiWangWen.theorem_3_2_polynomial_factors",
+      "recurrence": "LiWangWen.theorem_3_2_polynomial_factors_recurrence",
+      "alignment": "From the monic actual ODE and entire finite-order f, constructs indicial-root exponents, polynomial u, polynomial factors F of degree p, and sum K <= n. C=1 and F=X^p suffice. Roots and degree budget are conclusions.",
+      "qualification": "The displayed existential representation is covered by the explicit choices C_j=1 and F_j,p=X^p; no extra restriction on the input solution is imposed. Exact coupled triangular equations for block coefficients are proved separately."
+    },
+    {
+      "paper_item": "Corollary 3.3",
+      "page": 123,
+      "files": [
+        "LiWangWenCorollary33.lean",
+        "LiWangWenCorollary33Matrix.lean"
+      ],
+      "direct": "LiWangWen.corollary_3_3_matrix",
+      "recurrence": "LiWangWen.corollary_3_3_matrix_recurrence",
+      "alignment": "Nontrivial finite-order entire solution exists iff a normalized polynomial solution of the literal matrix equation exists, with an indicial-root exponent."
+    },
+    {
+      "paper_item": "Corollary 3.4",
+      "page": 123,
+      "files": [
+        "LiWangWenGrowth.lean"
+      ],
+      "entry": "LiWangWen.corollary_3_4",
+      "route": "shared",
+      "alignment": "The polynomial identity in the exponent implies an actual nonzero entire finite-order pure exponential solution. The paper nonzero-exponent case is included."
+    },
+    {
+      "paper_item": "Theorem 3.5",
+      "page": 123,
+      "files": [
+        "LiWangWenFrequencyDirect.lean",
+        "LiWangWenFrequencyRepresentation.lean"
+      ],
+      "direct": "LiWangWen.frequency_finiteOrder_iff_isExponentialSum_direct",
+      "recurrence": "LiWangWen.frequency_finiteOrder_iff_isExponentialSum",
+      "alignment": "Every natural leading power gamma and every nonzero complex common frequency; actual iterated derivatives and ODE. Finite order iff a finite sum of polynomial factors times linear exponentials.",
+      "paper_supplement": "Section 5.4, p.130: finite exponential upper bound suffices. Remove the lowest appearing exponential factor before using the endpoint root bound. Work in the finite-order translation-invariant solution space so all Floquet components retain finite order."
+    },
+    {
+      "paper_item": "Lemma 5.1",
+      "page": 128,
+      "files": [
+        "LiWangWenLemma51Direct.lean",
+        "LiWangWenLemma51.lean"
+      ],
+      "direct": "LiWangWen.lemma_5_1_direct",
+      "recurrence": "LiWangWen.lemma_5_1",
+      "alignment": "Actual nonpolynomial entire finite-order monic solution has order exactly one and finite positive type. Direct proof establishes two-sided genuine central-index bounds; recurrence proof establishes representation before growth."
+    },
+    {
+      "paper_item": "Lemma 5.2",
+      "page": 129,
+      "files": [
+        "LiWangWenLemma52.lean"
+      ],
+      "entry": "LiWangWen.lemma_5_2_mean_type",
+      "route": "shared",
+      "alignment": "Entire coefficients composed with exp and nonzero polynomial factors with strictly increasing degrees; mean type of the whole sum implies every entire coefficient is a polynomial. A stronger entry assumes only a global exponential bound on the whole sum; cancellation is allowed."
+    },
+    {
+      "paper_item": "Supplementary Lemma 5.2 prime",
+      "source": "Supplementary note, Lemma 5.2 prime",
+      "files": [
+        "LiWangWenLemma52Prime.lean"
+      ],
+      "entry": "LiWangWen.lemma_5_2_prime_of_representation_symmetric",
+      "symmetric_sum_entry": "LiWangWen.lemma_5_2_prime_symmetric",
+      "polynomial_corollary": "LiWangWen.lemma_5_2_prime_holomorphic_at_zero",
+      "entire_corollary": "LiWangWen.lemma_5_2_prime_entire",
+      "route": "shared",
+      "alignment": "From nonzero polynomial factors of strictly increasing degrees, coefficient functions holomorphic on C minus zero, and one global exponential bound for the whole sum, derives a finite Laurent representation for each coefficient on every nonzero w, with the literal symmetric integer range [-N,N]. The named-sum wrapper accepts g and its representation. Holomorphy at zero yields an ordinary polynomial on all of C.",
+      "qualification": "No individual coefficient bound, finite Fourier support, Laurent representation, or holomorphy at zero is assumed for the Laurent conclusion. The value at zero is unconstrained until the holomorphic-at-zero corollary. Entirety of g is derivable from the coefficient hypotheses, so a separate entirety hypothesis is unnecessary.",
+      "proof": "Polynomial-periodic coefficient extraction; proved periodic Fourier tail vanishing and reconstruction; evaluate at log w and use exp(log w)=w; pad finite support by zeros to a symmetric integer interval."
+    }
+  ]
+}

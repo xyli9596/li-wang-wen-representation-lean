@@ -1,0 +1,309 @@
+name = "li_wang_wen_representation_lean"
+version = "0.1.0"
+defaultTargets = ["Audit"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "db584cd6d46c92f209a44c0f1c829460d327499d"
+
+[[lean_lib]]
+name = "Audit"
+
+[[lean_lib]]
+name = "CRGExponentialCoefficients"
+
+[[lean_lib]]
+name = "CRGOrder"
+
+[[lean_lib]]
+name = "CRGPolynomialGrowth"
+
+[[lean_lib]]
+name = "CRGProgress"
+
+[[lean_lib]]
+name = "CRGRay"
+
+[[lean_lib]]
+name = "LevinDensity"
+
+[[lean_lib]]
+name = "LevinGeometry"
+
+[[lean_lib]]
+name = "LevinGrowth"
+
+[[lean_lib]]
+name = "LiWangWenCore"
+
+[[lean_lib]]
+name = "LiWangWenExamples"
+
+[[lean_lib]]
+name = "NormalFormGoal"
+
+[[lean_lib]]
+name = "WasowPolynomialPhase"
+
+[[lean_lib]]
+name = "LiWangWenGrowth"
+
+[[lean_lib]]
+name = "IncePeriodic"
+
+[[lean_lib]]
+name = "LiWangWenPolynomiality"
+
+[[lean_lib]]
+name = "LiWangWenPeriodicity"
+
+[[lean_lib]]
+name = "WimanValironMaximumTerm"
+
+[[lean_lib]]
+name = "HelmrathNewtonBalance"
+
+[[lean_lib]]
+name = "HelmrathExceptionalSet"
+
+[[lean_lib]]
+name = "WimanValironCircleBounds"
+
+[[lean_lib]]
+name = "WimanValironCauchyTransfer"
+
+[[lean_lib]]
+name = "WimanValironNormalRadii"
+
+[[lean_lib]]
+name = "WimanValironDerivativeAsymptotics"
+
+[[lean_lib]]
+name = "WimanValironComparisonSequence"
+
+[[lean_lib]]
+name = "WimanValironAngularEstimate"
+
+[[lean_lib]]
+name = "WimanValironHigherDerivatives"
+
+[[lean_lib]]
+name = "WimanValironLogarithmicMeasure"
+
+[[lean_lib]]
+name = "WimanValironExceptionalRadii"
+
+[[lean_lib]]
+name = "WimanValironWeightedMoments"
+
+[[lean_lib]]
+name = "WimanValironQuantitativeDerivatives"
+
+[[lean_lib]]
+name = "WimanValironTaylorMoments"
+
+[[lean_lib]]
+name = "WimanValironTheorem"
+
+[[lean_lib]]
+name = "WimanValironGoodRadii"
+
+[[lean_lib]]
+name = "WimanValironLimits"
+
+[[lean_lib]]
+name = "WimanValironBookEstimates"
+
+[[lean_lib]]
+name = "InceSolutionSpace"
+
+[[lean_lib]]
+name = "InceExponentialConjugation"
+
+[[lean_lib]]
+name = "InceDifferencePolynomial"
+
+[[lean_lib]]
+name = "InceFiniteDifference"
+
+[[lean_lib]]
+name = "InceFloquet"
+
+[[lean_lib]]
+name = "HelmrathNewtonBranches"
+
+[[lean_lib]]
+name = "WimanValironGrowthBridge"
+
+[[lean_lib]]
+name = "HelmrathODECoefficients"
+
+[[lean_lib]]
+name = "HelmrathODEApplication"
+
+[[lean_lib]]
+name = "LiWangWenFloquet"
+
+[[lean_lib]]
+name = "LiWangWenDifferenceGrowth"
+
+[[lean_lib]]
+name = "LiWangWenCoefficientExtraction"
+
+[[lean_lib]]
+name = "HelmrathODEGrowth"
+
+[[lean_lib]]
+name = "HelmrathBranchSelection"
+
+[[lean_lib]]
+name = "HelmrathRootApplication"
+
+[[lean_lib]]
+name = "HelmrathRootClustering"
+
+[[lean_lib]]
+name = "HelmrathSingleBranch"
+
+[[lean_lib]]
+name = "LiWangWenExponentialSumAlgebra"
+
+[[lean_lib]]
+name = "LiWangWenExponentialSumGrowth"
+
+[[lean_lib]]
+name = "LiWangWenFiniteOrderBounds"
+
+[[lean_lib]]
+name = "LiWangWenFiniteOrderFloquet"
+
+[[lean_lib]]
+name = "LiWangWenFiniteOrderRecurrence"
+
+[[lean_lib]]
+name = "LiWangWenFloquetCoefficientEquations"
+
+[[lean_lib]]
+name = "LiWangWenFourier"
+
+[[lean_lib]]
+name = "LiWangWenFourierDecay"
+
+[[lean_lib]]
+name = "LiWangWenFourierLaurent"
+
+[[lean_lib]]
+name = "LiWangWenFourierPolynomial"
+
+[[lean_lib]]
+name = "LiWangWenFourierReconstruction"
+
+[[lean_lib]]
+name = "LiWangWenFourierRecurrence"
+
+[[lean_lib]]
+name = "LiWangWenFourierSupport"
+
+[[lean_lib]]
+name = "LiWangWenFrequencyRepresentation"
+
+[[lean_lib]]
+name = "LiWangWenLemma51"
+
+[[lean_lib]]
+name = "LiWangWenLemma51Periodic"
+
+[[lean_lib]]
+name = "LiWangWenRepresentation"
+
+[[lean_lib]]
+name = "LiWangWenVerticalGrowth"
+
+[[lean_lib]]
+name = "LiWangWenWimanValironGroups"
+
+[[lean_lib]]
+name = "LiWangWenWimanValironLower"
+
+[[lean_lib]]
+name = "LiWangWenWimanValironLowerBound"
+
+[[lean_lib]]
+name = "LiWangWenWimanValironStrip"
+
+[[lean_lib]]
+name = "LiWangWenWimanValironUpper"
+
+[[lean_lib]]
+name = "WimanValironFiniteOrder"
+
+[[lean_lib]]
+name = "WimanValironLinearType"
+
+[[lean_lib]]
+name = "WimanValironLocalAngular"
+
+[[lean_lib]]
+name = "LiWangWenLemma51Direct"
+
+[[lean_lib]]
+name = "LiWangWenWimanValironAsymptotic"
+
+[[lean_lib]]
+name = "LiWangWenWimanValironEndpoint"
+
+[[lean_lib]]
+name = "WimanValironLargeAngular"
+
+[[lean_lib]]
+name = "LiWangWenPeriodicExponentialType"
+
+[[lean_lib]]
+name = "LiWangWenTheorem35Direct"
+
+[[lean_lib]]
+name = "LiWangWenBoundedFloquet"
+
+[[lean_lib]]
+name = "LiWangWenCorollary33"
+
+[[lean_lib]]
+name = "LiWangWenCorollary33Matrix"
+
+[[lean_lib]]
+name = "LiWangWenFloquetIndicial"
+
+[[lean_lib]]
+name = "LiWangWenFloquetNormalization"
+
+[[lean_lib]]
+name = "LiWangWenFrequencyDirect"
+
+[[lean_lib]]
+name = "LiWangWenLaurentNormalization"
+
+[[lean_lib]]
+name = "LiWangWenLemma52"
+
+[[lean_lib]]
+name = "LiWangWenLemma52Prime"
+
+[[lean_lib]]
+name = "LiWangWenMatrix31"
+
+[[lean_lib]]
+name = "LiWangWenPolynomialNormalization"
+
+[[lean_lib]]
+name = "LiWangWenSpectralBudget"
+
+[[lean_lib]]
+name = "LiWangWenStirlingIdentity"
+
+[[lean_lib]]
+name = "LiWangWenTheorem31"
+
+[[lean_lib]]
+name = "LiWangWenTheorem32"
