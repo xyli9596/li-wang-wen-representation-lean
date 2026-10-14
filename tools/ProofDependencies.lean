@@ -1,3 +1,4 @@
+import LiWangWenExamples38_39
 import LiWangWenTheorem32
 import LiWangWenCorollary33Matrix
 import LiWangWenFrequencyDirect
@@ -34,7 +35,9 @@ run_cmd do
     `LiWangWen.frequency_finiteOrder_iff_isExponentialSum,
     `LiWangWen.theorem_3_1, `LiWangWen.corollary_3_4,
     `LiWangWen.lemma_5_2_mean_type,
-    `LiWangWen.lemma_5_2_prime_symmetric]
+    `LiWangWen.lemma_5_2_prime_symmetric,
+    `LiWangWen.example38_finiteOrder_iff,
+    `LiWangWen.example39_nonzero_solution_not_finiteOrder]
   for root in roots do
     if (env.find? root).isNone then throwError "Missing endpoint: {root}"
   let rows := roots.map fun root =>
