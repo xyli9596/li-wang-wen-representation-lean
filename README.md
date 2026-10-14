@@ -1,5 +1,10 @@
 # Li–Wang–Wen exponential-sum representation: formalization and audit
 
+## Review status
+
+This formalization supplement was prepared by Xing-Yu Li and is currently
+awaiting review by the coauthors of the original paper.
+
 Target: X.-Y. Li, J. Wang and Z.-T. Wen, *Representation of finite-order solutions
 to linear differential equations with exponential-sum coefficients*,
 J. Differential Equations **423 (2025)**, 118–132.
