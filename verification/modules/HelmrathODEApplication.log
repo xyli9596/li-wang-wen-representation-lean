@@ -1,0 +1,4 @@
+'HelmrathODE.norm_scaled_term' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathODE.scaled_ode_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathODE.polynomial_ode_newton_power_bands' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathODE.common_degree_polynomial_ode_linear_bands' depends on axioms: [propext, Classical.choice, Quot.sound]

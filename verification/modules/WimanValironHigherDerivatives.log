@@ -1,0 +1,21 @@
+'WimanValiron.centeredFallingPolynomial_coeff_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.centeredFallingPolynomial_natDegree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.centeredFallingPolynomial_zero_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.centeredFallingPolynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.centeredFallingPolynomial_eval_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.falling_average_eq_centered_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.falling_average_tendsto_one_of_centered_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WimanValiron.summable_nat_pow_taylorCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.summable_polynomial_taylorCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.summable_centered_taylorWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.centered_taylorWeight_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.falling_taylorWeight_eq_normalized_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.normalized_deriv_tendsto_one_of_centered_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WimanValiron.inv_natIndex_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.normalized_deriv_tendsto_one_of_nat_centered_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

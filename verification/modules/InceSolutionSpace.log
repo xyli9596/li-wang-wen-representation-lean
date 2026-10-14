@@ -1,0 +1,7 @@
+'IncePeriodic.differentiated_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.all_derivatives_zero_of_zero_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.eq_zero_of_zero_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.jetMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.solutionSpace_finiteDimensional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.finrank_solutionSpace_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.translateEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]

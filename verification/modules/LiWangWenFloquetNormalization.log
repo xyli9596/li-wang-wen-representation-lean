@@ -1,0 +1,6 @@
+'LiWangWen.finite_fourier_lift_of_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.normalized_floquet_solution_block_of_finiteFourier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.normalized_floquet_solution_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.normalized_floquet_solution_block_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]

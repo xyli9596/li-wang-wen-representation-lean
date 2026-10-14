@@ -1,0 +1,3 @@
+'LiWangWen.lemma_5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.leading_power_solution_order_and_type' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.frequency_solution_order_and_type' depends on axioms: [propext, Classical.choice, Quot.sound]

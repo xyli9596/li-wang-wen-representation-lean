@@ -1,0 +1,10 @@
+'LiWangWen.PowerExponentialBound.comp_const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finiteOrder_comp_const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.IsExponentialSum.comp_const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.frequency_rescaled_leading_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.solves_frequency_rescale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.frequency_finiteOrder_solution_isExponentialSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.frequency_finiteOrder_solution_isExponentialSum_of_leading_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.frequency_finiteOrder_iff_isExponentialSum' depends on axioms: [propext, Classical.choice, Quot.sound]

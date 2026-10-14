@@ -1,0 +1,5 @@
+'LiWangWen.fourierWeight_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.fourierWeight_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.vertical_integral_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.verticalFourierCoeff_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.norm_verticalFourierCoeff_le' depends on axioms: [propext, Classical.choice, Quot.sound]

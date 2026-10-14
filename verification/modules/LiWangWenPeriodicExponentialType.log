@@ -1,0 +1,3 @@
+'LiWangWen.verticalFourierCoeff_eq_zero_of_exponential_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.periodic_exponentialBound_finiteFourier_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.periodic_exponentialBound_isExponentialSum' depends on axioms: [propext, Classical.choice, Quot.sound]

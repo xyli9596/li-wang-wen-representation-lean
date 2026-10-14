@@ -1,0 +1,23 @@
+'LiWangWen.floquetMonomialContribution_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.floquetMonomialContribution_finiteFourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.floquet_block_coefficients_finiteFourier_of_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.finiteOrderFloquetBlock_isExponentialSum_of_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.finiteOrder_solution_isExponentialSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finiteOrder_solution_isExponentialSum_of_leading_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.finiteOrder_solution_isExponentialSum_of_leading_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.finiteOrder_iff_isExponentialSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finiteOrder_solution_exponentialBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finiteOrder_solution_exponentialBound_of_leading_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.finiteOrder_solution_exponentialBound_of_leading_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

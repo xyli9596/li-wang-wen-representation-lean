@@ -1,0 +1,4 @@
+'LiWangWen.perturbed_polynomial_max_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.perturbed_polynomial_min_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.logarithmic_strip_of_comparable_groups' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.eventually_logarithmic_strip_of_normalized_groups' depends on axioms: [propext, Classical.choice, Quot.sound]

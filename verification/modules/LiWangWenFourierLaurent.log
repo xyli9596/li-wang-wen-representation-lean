@@ -1,0 +1,9 @@
+'LiWangWen.fourier_recurrence_sum_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.exists_nonzero_fourierRecurrencePolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.exists_fourier_polynomial_recurrence_of_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.periodic_finiteOrder_fourier_support_of_nonzero_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.periodic_finiteOrder_fourier_support_of_leading_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

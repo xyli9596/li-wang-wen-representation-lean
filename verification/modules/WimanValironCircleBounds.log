@@ -1,0 +1,6 @@
+'WimanValiron.norm_powerSeries_term_le_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.norm_le_maximumTerm_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.norm_le_maximumTerm_div_on_circle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.taylorCoeff_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.hasSum_iteratedDeriv_taylorCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.hasSum_pow_mul_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]

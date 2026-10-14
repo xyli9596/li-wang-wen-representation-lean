@@ -1,0 +1,2 @@
+'LiWangWen.corollary_3_3_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.corollary_3_3_matrix_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]

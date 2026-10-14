@@ -1,0 +1,8 @@
+'LiWangWen.periodic_monomial_coefficients_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.periodic_monomial_coefficients_power_bound_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.powerBoundSolutionSpace_finiteDimensional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.hasFiniteOrderFloquetBlocks_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.HasFiniteOrderFloquetBlocks.add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finiteOrder_floquet_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.polynomial_exp_finiteOrder_floquet_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.paper_finiteOrder_floquet_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]

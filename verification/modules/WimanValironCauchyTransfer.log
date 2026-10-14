@@ -1,0 +1,3 @@
+'WimanValiron.scaled_iteratedDeriv_normalized_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.cauchy_transfer_of_monomial_circle_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.cauchy_transfer_of_monomial_increment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

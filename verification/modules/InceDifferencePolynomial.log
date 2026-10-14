@@ -1,0 +1,5 @@
+'IncePeriodic.complexBernoulli_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.complexBernoulli_natDegree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.differencePrimitive_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.differencePrimitive_natDegree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.exists_polynomial_difference_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]

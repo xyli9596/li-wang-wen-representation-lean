@@ -1,0 +1,5 @@
+'LiWangWen.periodic_monomial_coefficients_exp_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.periodic_monomial_coefficients_exp_bound_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.polynomial_coefficients_of_exp_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.polynomial_coefficients_of_exponential_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.polynomial_coefficients_of_exp_bound_range' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'HelmrathODE.factor_scaled_term' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathODE.polynomial_ode_root_candidates' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'LiWangWen.verticalFourierCoeff_floquetContribution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.floquet_indicial_root_at_lowest_frequency' depends on axioms: [propext, Classical.choice, Quot.sound]

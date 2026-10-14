@@ -1,0 +1,5 @@
+'WimanValiron.centralIndex_error_power_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.derivativeRatio_tendsto_one_of_power_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.wimanValiron_asymptotic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.wimanValiron_asymptotic_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.wimanValiron_at_maximum_points' depends on axioms: [propext, Classical.choice, Quot.sound]

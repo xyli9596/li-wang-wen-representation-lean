@@ -1,0 +1,6 @@
+'LiWangWen.example36_polynomial_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.example36_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.example37_identity_negI' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.example37_identity_negOne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.example37_solution_negI' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.example37_solution_negOne' depends on axioms: [propext, Classical.choice, Quot.sound]

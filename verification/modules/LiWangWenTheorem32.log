@@ -1,0 +1,4 @@
+'LiWangWen.theorem_3_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.theorem_3_2_polynomial_factors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.theorem_3_2_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.theorem_3_2_polynomial_factors_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]

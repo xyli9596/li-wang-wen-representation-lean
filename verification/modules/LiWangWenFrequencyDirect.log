@@ -1,0 +1,5 @@
+'LiWangWen.frequency_finiteOrder_solution_isExponentialSum_direct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.frequency_theorem_3_5_direct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.frequency_finiteOrder_iff_isExponentialSum_direct' depends on axioms: [propext, Classical.choice, Quot.sound]

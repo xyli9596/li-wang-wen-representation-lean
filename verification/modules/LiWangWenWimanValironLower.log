@@ -1,0 +1,12 @@
+'LiWangWen.angular_decay_mul_pow_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.exp_div_pow_tendsto_zero_of_left_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.polynomial_exp_perturbation_normalized_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.small_logDerivative_balance_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.small_logDerivative_ode_balance_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.ode_balance_of_derivativeRatio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.no_small_logDerivative_at_left_WV_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.monic_no_small_logDerivative_at_left_WV_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.direct_small_logDerivative_impossible_of_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.exists_eventually_pos_le_of_no_zero_subfilter' depends on axioms: [propext, Classical.choice, Quot.sound]

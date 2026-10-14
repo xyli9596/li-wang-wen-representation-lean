@@ -1,0 +1,15 @@
+'WimanValiron.logarithmicMeasure_Ioc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.logarithmicMeasure_Ioo_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.logarithmicMeasure_comparisonGap_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.logarithmicMeasure_iUnion_comparisonGap_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.finiteLogarithmicMeasure_iUnion_comparisonGap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.finiteLogarithmicMeasure_of_comparisonGap_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WimanValiron.logarithmicMeasure_countable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.logarithmicMeasure_comparisonGaps_union_countable_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WimanValiron.finiteLogarithmicMeasure_of_comparisonGap_cover_with_endpoints' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

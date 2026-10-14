@@ -1,0 +1,9 @@
+'LiWangWen.solution_large_ratio_maximum_log_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finiteOrder_solution_direct_centralIndex_linear_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.finiteOrder_solution_direct_exponentialBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.centralIndex_linear_of_large_ratio_circle_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.centralIndex_linear_of_large_ratio_maximum_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.exponentialBound_of_large_ratio_maximum_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.centralIndex_linear_of_large_ratio_log_strip' depends on axioms: [propext, Classical.choice, Quot.sound]

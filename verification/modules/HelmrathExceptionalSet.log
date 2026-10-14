@@ -1,0 +1,8 @@
+'HelmrathExceptionalSet.exists_good_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathExceptionalSet.exists_scale_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathExceptionalSet.exists_scale_above' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathExceptionalSet.remove_zero_density_exception' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathExceptionalSet.zero_density_of_finite_logarithmic_measure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HelmrathExceptionalSet.remove_finite_logarithmic_exception' depends on axioms: [propext, Classical.choice, Quot.sound]

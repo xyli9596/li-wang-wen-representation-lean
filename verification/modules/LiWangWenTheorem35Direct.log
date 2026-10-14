@@ -1,0 +1,7 @@
+'LiWangWen.finiteOrder_solution_exponentialBound_direct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.FiniteOrderFloquetBlock.entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.FiniteOrderFloquetBlock.finiteOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.direct_floquet_coefficients_exponentialBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.direct_floquetBlock_isExponentialSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finiteOrder_solution_isExponentialSum_direct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.theorem_3_5_direct' depends on axioms: [propext, Classical.choice, Quot.sound]

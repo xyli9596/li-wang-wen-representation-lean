@@ -1,0 +1,5 @@
+'LiWangWen.periodic_finiteOrder_fourier_support_of_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.periodic_finiteOrder_fourier_support_of_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.periodic_finiteOrder_solution_fourier_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finite_fourier_support_of_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.periodic_finiteOrder_solution_isExponentialSum' depends on axioms: [propext, Classical.choice, Quot.sound]

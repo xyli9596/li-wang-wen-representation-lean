@@ -1,0 +1,7 @@
+'LiWangWen.vertical_slice_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.verticalCircle_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.fourier_two_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.verticalCircle_fourierCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finite_fourier_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finite_fourier_support_representation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finite_fourier_support_isExponentialSum' depends on axioms: [propext, Classical.choice, Quot.sound]

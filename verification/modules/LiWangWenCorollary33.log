@@ -1,0 +1,9 @@
+'LiWangWen.finiteOrder_solution_has_eigenfunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finiteOrder_solution_has_normalized_polynomial_solution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.corollary_3_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finiteOrder_solution_has_normalized_polynomial_solution_recurrence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.corollary_3_3_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]

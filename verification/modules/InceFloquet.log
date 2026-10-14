@@ -1,0 +1,8 @@
+'IncePeriodic.hasFloquetRepresentation_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.HasFloquetRepresentation.add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.hasFloquetRepresentation_of_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.linearEquiv_pow_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.zero_multiplier_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.floquet_of_generalized_kernels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.finiteDimensional_floquet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.entire_solution_floquet' depends on axioms: [propext, Classical.choice, Quot.sound]

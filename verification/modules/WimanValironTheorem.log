@@ -1,0 +1,6 @@
+'WimanValiron.normal_absoluteTaylorMoment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.wimanValiron_moment_exponents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.normal_centered_moments_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.normal_derivative_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.wimanValiron_quantitative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.wimanValiron_derivative_formula' depends on axioms: [propext, Classical.choice, Quot.sound]

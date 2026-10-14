@@ -1,0 +1,5 @@
+'LiWangWen.periodic_polynomial_coefficients_exp_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.lemma_5_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.lemma_5_2_with_exponential_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.exponentialBound_of_finitePositiveType_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.lemma_5_2_mean_type' depends on axioms: [propext, Classical.choice, Quot.sound]

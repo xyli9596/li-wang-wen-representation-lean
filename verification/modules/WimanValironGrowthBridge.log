@@ -1,0 +1,12 @@
+'WimanValiron.maximumTerm_le_radius_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.maximumTerm_add_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.maximumTerm_add_nat_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.maximumTerm_le_exp_of_centralIndex_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.exponentialBound_of_centralIndex_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.exponentialBound_of_centralIndex_eventually_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.centralIndex_eventually_le_of_zero_density_exception' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WimanValiron.exponentialBound_of_centralIndex_le_off_finite_logarithmic_set' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

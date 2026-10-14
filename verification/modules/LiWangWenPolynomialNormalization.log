@@ -1,0 +1,4 @@
+'LiWangWen.polynomial_origin_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.lift_origin_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.normalize_polynomial_lift_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.lift_ne_zero_of_polynomial_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

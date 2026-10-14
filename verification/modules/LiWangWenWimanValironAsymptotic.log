@@ -1,0 +1,7 @@
+'LiWangWen.eventually_near_positive_rootModuli' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.linear_asymptotic_of_endpoint_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.centralIndex_asymptotic_of_endpoint_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.finiteOrder_solution_deep_WV_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.polynomial_exponential_endpoint_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.lemma_5_1_centralIndex_asymptotic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.lemma_5_1_via_single_branch' depends on axioms: [propext, Classical.choice, Quot.sound]

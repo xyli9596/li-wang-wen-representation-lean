@@ -1,0 +1,4 @@
+'WimanValiron.circleMaximum_le_tsum_term' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.book_normalized_moment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.book_weighted_moment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.book_maximum_modulus_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'LiWangWen.ExponentialBound.neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.ExponentialBound.sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.ExponentialBound.const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.ExponentialBound.difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.ExponentialBound.iterated_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.ExponentialBound.remove_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]

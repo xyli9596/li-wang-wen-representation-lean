@@ -1,0 +1,2 @@
+'HelmrathODE.polynomial_normalized_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathODE.eventually_uniform_multiplier_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

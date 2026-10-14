@@ -1,0 +1,3 @@
+'WimanValiron.wimanValiron_local_angular_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.linear_local_angular_error_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.exists_deep_nearMaximum_WV_points' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,19 @@
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'LiWangWen.endpointPolynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.endpointPolynomial_eval_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.endpointPolynomial_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.endpoint_product_eval_zero_ne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.endpoint_zero_mul_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.endpoint_perturbation_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.endpoint_positive_frequency_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.endpointPolynomial_eval_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.left_endpoint_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.reverse_frequency_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.right_endpoint_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.endpoint_product_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.angular_error_linear_radial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

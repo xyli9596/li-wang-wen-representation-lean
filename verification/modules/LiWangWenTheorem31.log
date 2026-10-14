@@ -1,0 +1,3 @@
+'LiWangWen.theorem_3_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.paperMatrix_indicial_root_of_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.normalize_paperMatrix_solution' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'HelmrathODE.common_degree_polynomial_ode_exponentialBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathODE.common_degree_polynomial_ode_finiteOrder' depends on axioms: [propext, Classical.choice, Quot.sound]

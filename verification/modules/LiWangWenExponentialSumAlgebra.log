@@ -1,0 +1,7 @@
+'LiWangWen.isExponentialSum_of_fintype' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.isExponentialSum_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.IsExponentialSum.add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.IsExponentialSum.polynomial_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.IsExponentialSum.exp_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.isExponentialSum_finset_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.isExponentialSum_list_sum' depends on axioms: [propext, Classical.choice, Quot.sound]

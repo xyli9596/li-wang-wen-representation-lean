@@ -1,0 +1,1 @@
+'LiWangWen.power_eq_stirling_descPochhammer' depends on axioms: [propext, Classical.choice, Quot.sound]

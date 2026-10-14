@@ -1,0 +1,19 @@
+'HelmrathNewtonBranches.exists_comparable_terms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBranches.exists_comparable_monomials' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBranches.radialMonomial_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBranches.log_radialMonomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBranches.candidateSlope_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBranches.one_le_abs_nat_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBranches.log_band_of_comparable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBranches.power_band_of_log_band' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBranches.bandConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBranches.exists_newton_power_band' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBranches.positive_slope_of_power_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBranches.exists_positive_newton_power_band' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBranches.eventually_positive_newton_power_bands' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HelmrathNewtonBranches.candidateSlope_eq_one_of_common_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HelmrathNewtonBranches.linear_band_of_common_degree' depends on axioms: [propext, Classical.choice, Quot.sound]

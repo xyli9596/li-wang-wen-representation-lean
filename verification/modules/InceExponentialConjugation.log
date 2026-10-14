@@ -1,0 +1,7 @@
+'IncePeriodic.exponentialRemoval_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.logarithmicExponent_multiplier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.difference_exponentialRemoval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.difference_pow_exponentialRemoval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncePeriodic.difference_pow_eq_zero_of_generalizedEigenvector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'LiWangWen.frequencyPeriod_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.frequency_coefficients_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.frequency_entire_solution_floquet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.frequency_entire_solution_floquet_of_leading_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LiWangWen.paper_entire_solution_floquet' depends on axioms: [propext, Classical.choice, Quot.sound]

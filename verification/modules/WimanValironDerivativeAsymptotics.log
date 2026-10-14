@@ -1,0 +1,12 @@
+'WimanValiron.tendsto_descFactorial_div_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.tendsto_descFactorial_div_pow_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.derivativeRatio_tendsto_of_fallingFactorial_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WimanValiron.derivative_eq_with_relative_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.derivativeRatio_sub_descFactorial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.derivativeRatio_tendsto_of_monomial_circle_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WimanValiron.derivativeRatio_error_bound_of_near_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.derivativeRatio_tendsto_of_near_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]

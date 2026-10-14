@@ -1,0 +1,3 @@
+'LiWangWen.abs_log_le_log_of_inv_radius_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.direct_centralIndex_eventually_linear_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.monic_direct_centralIndex_eventually_linear_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

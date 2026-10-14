@@ -1,0 +1,8 @@
+'HelmrathNewtonBalance.tendsto_div_rpow_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBalance.unique_max_not_eventually_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBalance.exists_other_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBalance.rational_of_equal_weights' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBalance.order_one_of_equal_degrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBalance.rational_of_vanishing_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBalance.order_one_of_vanishing_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HelmrathNewtonBalance.scaled_ode_identity' depends on axioms: [propext, Classical.choice, Quot.sound]

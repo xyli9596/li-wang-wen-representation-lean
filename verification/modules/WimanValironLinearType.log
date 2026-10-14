@@ -1,0 +1,9 @@
+'WimanValiron.maximumTerm_ge_radius_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.positiveType_of_centralIndex_eventually_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WimanValiron.centralIndex_eventually_ge_of_zero_density_exception' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WimanValiron.finitePositiveType_of_centralIndex_linear_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WimanValiron.order_and_type_of_centralIndex_linear_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

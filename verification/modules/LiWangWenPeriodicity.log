@@ -1,0 +1,4 @@
+'LiWangWen.exponentialPeriod_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.coefficients_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.paper_solves_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LiWangWen.ExponentialBound.translate' depends on axioms: [propext, Classical.choice, Quot.sound]
