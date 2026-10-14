@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this fixed source version and its verification report."
+type: software
+title: "Lean formalization of the Li-Wang-Wen representation theorems"
+authors:
+  - family-names: Li
+    given-names: Xing-Yu
+version: 0.1.0
+date-released: 2026-10-14
+url: "https://github.com/xyli9596/li-wang-wen-representation-lean"
+license: Apache-2.0
+abstract: "Formal proofs of Theorems 3.1, 3.2 and 3.5, Corollaries 3.3 and 3.4, Lemmas 5.1 and 5.2, and supplementary Lemma 5.2 prime; 100 modules and 716 audited declarations."

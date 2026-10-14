@@ -1,0 +1,404 @@
+{
+  "continued_from_chat": "继续定理 1.1 形式化审查",
+  "source_directory": "/Users/lxy/Documents/tex/HITW/1-1/outputs/li-wang-wen-representation-lean",
+  "copied_before_edit": true,
+  "date": "2026-10-14",
+  "files": {
+    "LiWangWenPolynomialNormalization.lean": {
+      "current_sha256": "bd3bd3116b65e8bbb488fe3f9c9a553bcdd1fb46b637be201048b87eddf035fc",
+      "previous_sha256": "bd3bd3116b65e8bbb488fe3f9c9a553bcdd1fb46b637be201048b87eddf035fc"
+    },
+    "LiWangWenStirlingIdentity.lean": {
+      "current_sha256": "ea4f6b7d0308fb246fa3b74edd21590ac6522e87ff22cee9142ef4c58ed5749c",
+      "previous_sha256": "a6cff1d39d0ca5921a588883a80997812d24807236c14a641de58430a41db786"
+    },
+    "LiWangWenLaurentNormalization.lean": {
+      "current_sha256": "882b28191863705b4d8ce5ee853563631e154528e8a9d60a35a1686f83a0f72d",
+      "previous_sha256": "882b28191863705b4d8ce5ee853563631e154528e8a9d60a35a1686f83a0f72d"
+    },
+    "WimanValironNormalRadii.lean": {
+      "current_sha256": "c53a2b234314cb5e5e7dc8015f20b1fe8cf4c0e2bd07a1b624dbe5cd91669514",
+      "previous_sha256": "c53a2b234314cb5e5e7dc8015f20b1fe8cf4c0e2bd07a1b624dbe5cd91669514"
+    },
+    "HelmrathNewtonBranches.lean": {
+      "current_sha256": "ed827774fb2eb45c13d84f9efd07e10d9da73b4bb4532579e1522523c6446840",
+      "previous_sha256": "ed827774fb2eb45c13d84f9efd07e10d9da73b4bb4532579e1522523c6446840"
+    },
+    "LiWangWenLemma51Direct.lean": {
+      "current_sha256": "95433fd50dd68f9027f5db71f6e5f4e1ddefca2f55c8cd3f2a6ef931fd53dd44",
+      "previous_sha256": "95433fd50dd68f9027f5db71f6e5f4e1ddefca2f55c8cd3f2a6ef931fd53dd44"
+    },
+    "IncePeriodic.lean": {
+      "current_sha256": "ace8125dc983ec8ca509ef0e7918fde00a90b286e207ac1381ec0166db52816f",
+      "previous_sha256": "ace8125dc983ec8ca509ef0e7918fde00a90b286e207ac1381ec0166db52816f"
+    },
+    "WimanValironMaximumTerm.lean": {
+      "current_sha256": "66aa963c8ad9e400182cefa95733dfc9aa0a1db334b3ac77823e29570881c837",
+      "previous_sha256": "66aa963c8ad9e400182cefa95733dfc9aa0a1db334b3ac77823e29570881c837"
+    },
+    "LiWangWenTheorem32.lean": {
+      "current_sha256": "9aa9211d02286f8420ce17ee59d32e68e5c57a0d03b0e095e7dbd7b287b06c05",
+      "previous_sha256": "c293a1fb655102082f4cdfebcfe79eca5c2cbb66b2fecdf99fb857b283af7a46"
+    },
+    "LiWangWenPeriodicExponentialType.lean": {
+      "current_sha256": "6f33cccfe916abcab584b2fdcf23c0347709cf04950991df0c788dd3137db108",
+      "previous_sha256": "6f33cccfe916abcab584b2fdcf23c0347709cf04950991df0c788dd3137db108"
+    },
+    "InceFloquet.lean": {
+      "current_sha256": "421236430339efbad31054e1904ec0fa7294b9c20f951ab846d64de9f88bdd76",
+      "previous_sha256": "421236430339efbad31054e1904ec0fa7294b9c20f951ab846d64de9f88bdd76"
+    },
+    "LiWangWenFourierReconstruction.lean": {
+      "current_sha256": "2894a4cb2b5879fe1c927e1a7d2585ec64e9edbdaaaa3f74ff7d941e66f16b1f",
+      "previous_sha256": "2894a4cb2b5879fe1c927e1a7d2585ec64e9edbdaaaa3f74ff7d941e66f16b1f"
+    },
+    "LiWangWenExponentialSumAlgebra.lean": {
+      "current_sha256": "3bfd73c8dd2eb31ee62d5ffcc5bbeaf193dc5e1d2004c3370960cf7f9da584a4",
+      "previous_sha256": "3bfd73c8dd2eb31ee62d5ffcc5bbeaf193dc5e1d2004c3370960cf7f9da584a4"
+    },
+    "LiWangWenFourierSupport.lean": {
+      "current_sha256": "db0dd3339a318cd786258559be098908bfaa2aadce36d86c8c0e4c525a8fde12",
+      "previous_sha256": "db0dd3339a318cd786258559be098908bfaa2aadce36d86c8c0e4c525a8fde12"
+    },
+    "WimanValironExceptionalRadii.lean": {
+      "current_sha256": "879ff8975ed679f65c834a673ab46a1c75bc3ae106e950db71591ba0743a8e0b",
+      "previous_sha256": "879ff8975ed679f65c834a673ab46a1c75bc3ae106e950db71591ba0743a8e0b"
+    },
+    "LiWangWenDifferenceGrowth.lean": {
+      "current_sha256": "4a9777978f2cc96a3c4155b0f43f2a929a37cad4ccc529a09dd878e1bdce8eb9",
+      "previous_sha256": "4a9777978f2cc96a3c4155b0f43f2a929a37cad4ccc529a09dd878e1bdce8eb9"
+    },
+    "LiWangWenFourier.lean": {
+      "current_sha256": "46f3731a3e9177d21a7c909c4f3e1ec25b1503ff057ef0ddcbd210f96d424551",
+      "previous_sha256": "46f3731a3e9177d21a7c909c4f3e1ec25b1503ff057ef0ddcbd210f96d424551"
+    },
+    "LiWangWenLemma52.lean": {
+      "current_sha256": "d66fa4a5ebbb1d8c8859bc09ce77d86e9fe802dc91466dd28c0a86940c019d78",
+      "previous_sha256": null
+    },
+    "LevinGrowth.lean": {
+      "current_sha256": "0a5b3be2e2f356a05d4ca67786ba00faf90d98eb195852712841f64c6a5f3ea8",
+      "previous_sha256": "0a5b3be2e2f356a05d4ca67786ba00faf90d98eb195852712841f64c6a5f3ea8"
+    },
+    "LiWangWenFiniteOrderBounds.lean": {
+      "current_sha256": "8614ade11bde8cbeb8ef16bd1c7861f06f30149ac0efeb45367b65f748ea4a95",
+      "previous_sha256": "8614ade11bde8cbeb8ef16bd1c7861f06f30149ac0efeb45367b65f748ea4a95"
+    },
+    "HelmrathODECoefficients.lean": {
+      "current_sha256": "7afd0f4af70ac21df5480b543399bba53d56e2bae74463b3d9c8fb63d382047f",
+      "previous_sha256": "7afd0f4af70ac21df5480b543399bba53d56e2bae74463b3d9c8fb63d382047f"
+    },
+    "LiWangWenMatrix31.lean": {
+      "current_sha256": "0eebbe7b4bfa68d6ce05159892c6c5c51f55697e7029846e4fc44fc4cc7295bf",
+      "previous_sha256": null
+    },
+    "LiWangWenFourierDecay.lean": {
+      "current_sha256": "a5f937d8fbc2861ae5514d9041e27f7994a4f34e98f134665a9e39d7591a3dd3",
+      "previous_sha256": "a5f937d8fbc2861ae5514d9041e27f7994a4f34e98f134665a9e39d7591a3dd3"
+    },
+    "InceDifferencePolynomial.lean": {
+      "current_sha256": "ce2dafc40562cea1e4be9b6a41ee3571aeee95bb4a5f65ad5e655a1be2bc8a19",
+      "previous_sha256": "ce2dafc40562cea1e4be9b6a41ee3571aeee95bb4a5f65ad5e655a1be2bc8a19"
+    },
+    "LiWangWenLemma51Periodic.lean": {
+      "current_sha256": "be3c852f5463e8df211994ceec92bf51f8ed5ad4d67c931370030fadc4017bf9",
+      "previous_sha256": "be3c852f5463e8df211994ceec92bf51f8ed5ad4d67c931370030fadc4017bf9"
+    },
+    "LiWangWenWimanValironLowerBound.lean": {
+      "current_sha256": "fba99ab8eb95be3fc5a5c6acf76e5ba6a604acbffa91c0ba1bdba2b16c262c92",
+      "previous_sha256": "fba99ab8eb95be3fc5a5c6acf76e5ba6a604acbffa91c0ba1bdba2b16c262c92"
+    },
+    "LiWangWenWimanValironUpper.lean": {
+      "current_sha256": "f76e152b664f5d73d8581905b918ee7d2750a1021895a58c51735f5baa11bcd4",
+      "previous_sha256": "f76e152b664f5d73d8581905b918ee7d2750a1021895a58c51735f5baa11bcd4"
+    },
+    "CRGOrder.lean": {
+      "current_sha256": "c89372135e4049c0a03df673347ac75efa71d5fb84cd9ac0301709387765010a",
+      "previous_sha256": "c89372135e4049c0a03df673347ac75efa71d5fb84cd9ac0301709387765010a"
+    },
+    "LiWangWenTheorem35Direct.lean": {
+      "current_sha256": "efce8dd350befffd96d835e89148026c3089195c7b4543bbc9e593788ca3bc81",
+      "previous_sha256": "efce8dd350befffd96d835e89148026c3089195c7b4543bbc9e593788ca3bc81"
+    },
+    "WasowPolynomialPhase.lean": {
+      "current_sha256": "1f2442ded24539993f3d33148347fa90144290cbac5d38307796761399a597b5",
+      "previous_sha256": "1f2442ded24539993f3d33148347fa90144290cbac5d38307796761399a597b5"
+    },
+    "CRGExponentialCoefficients.lean": {
+      "current_sha256": "571871651a694dd1c1e11d7d7d2dcc91ed0b47c75340b38096c14c61b3a8b9f7",
+      "previous_sha256": "571871651a694dd1c1e11d7d7d2dcc91ed0b47c75340b38096c14c61b3a8b9f7"
+    },
+    "HelmrathNewtonBalance.lean": {
+      "current_sha256": "5b03d68285b701f9ac8dab16724e0db8cc6afd0ff72efff06a0f88088ebf29ee",
+      "previous_sha256": "5b03d68285b701f9ac8dab16724e0db8cc6afd0ff72efff06a0f88088ebf29ee"
+    },
+    "HelmrathRootApplication.lean": {
+      "current_sha256": "2c647b4cde0ffaeb403f01ffa2f06484c6f4b9427eb337f8b397557f3b61a7c2",
+      "previous_sha256": "2c647b4cde0ffaeb403f01ffa2f06484c6f4b9427eb337f8b397557f3b61a7c2"
+    },
+    "CRGProgress.lean": {
+      "current_sha256": "69b6b129e7c4f4d0c35adefa4e2ae0ff2ac3e4a8a04d85c9aa01a149a2096714",
+      "previous_sha256": "69b6b129e7c4f4d0c35adefa4e2ae0ff2ac3e4a8a04d85c9aa01a149a2096714"
+    },
+    "HelmrathExceptionalSet.lean": {
+      "current_sha256": "9895217665191c3881ff9867c0491e4b3de8b2b69e90f4317583bf046e87c15d",
+      "previous_sha256": "9895217665191c3881ff9867c0491e4b3de8b2b69e90f4317583bf046e87c15d"
+    },
+    "LiWangWenFourierLaurent.lean": {
+      "current_sha256": "dbc64db426ed996cea92b2d00410bdb3faa320843710181f3c56434e7a3711fd",
+      "previous_sha256": "dbc64db426ed996cea92b2d00410bdb3faa320843710181f3c56434e7a3711fd"
+    },
+    "LevinDensity.lean": {
+      "current_sha256": "982d64576ccc864e03a82bad38fa9468b171cd54a495c3d1273393cbb83aee5a",
+      "previous_sha256": "982d64576ccc864e03a82bad38fa9468b171cd54a495c3d1273393cbb83aee5a"
+    },
+    "HelmrathRootClustering.lean": {
+      "current_sha256": "219b28c9a5ee267330c0a104fce87e3767621105a76d64a9bc50604fa6b5e701",
+      "previous_sha256": "219b28c9a5ee267330c0a104fce87e3767621105a76d64a9bc50604fa6b5e701"
+    },
+    "WimanValironTheorem.lean": {
+      "current_sha256": "9b0c4ff148de845b8b1e142a0c3b1b3267a354737bcca132fc3c38218905cddd",
+      "previous_sha256": "9b0c4ff148de845b8b1e142a0c3b1b3267a354737bcca132fc3c38218905cddd"
+    },
+    "WimanValironLimits.lean": {
+      "current_sha256": "be2fd7d0e47e18d8c83d0e227d3f7789274ab5334c1eea0f3bf517d7ab5bce25",
+      "previous_sha256": "be2fd7d0e47e18d8c83d0e227d3f7789274ab5334c1eea0f3bf517d7ab5bce25"
+    },
+    "LiWangWenVerticalGrowth.lean": {
+      "current_sha256": "3be3b624bd8aea6318f7d88416388f524bcde49533c86a087e4ad1387919d096",
+      "previous_sha256": "3be3b624bd8aea6318f7d88416388f524bcde49533c86a087e4ad1387919d096"
+    },
+    "LiWangWenFloquet.lean": {
+      "current_sha256": "e92e2ea5f45fcd8ce9ebd718b8f7e3f7cf00f6ae9ef0df2bef99c7bbf5f17418",
+      "previous_sha256": "e92e2ea5f45fcd8ce9ebd718b8f7e3f7cf00f6ae9ef0df2bef99c7bbf5f17418"
+    },
+    "WimanValironQuantitativeDerivatives.lean": {
+      "current_sha256": "e44caabdfc3de66e91c23ab846d1f34535503488afbd703a261cb1b8bceb20ee",
+      "previous_sha256": "e44caabdfc3de66e91c23ab846d1f34535503488afbd703a261cb1b8bceb20ee"
+    },
+    "WimanValironBookEstimates.lean": {
+      "current_sha256": "178adfa6995bb947789317d113697826f8e8754b48190c62cd1405393af8baa9",
+      "previous_sha256": "178adfa6995bb947789317d113697826f8e8754b48190c62cd1405393af8baa9"
+    },
+    "LiWangWenFrequencyDirect.lean": {
+      "current_sha256": "090d10aa2f845999d2ef16ec4157d3c6b71786c5a4e64747286e9ce125e40afb",
+      "previous_sha256": null
+    },
+    "WimanValironLocalAngular.lean": {
+      "current_sha256": "83698d47230f240b1da98e00809354266dde8df03e0a6ebfba448d380729693a",
+      "previous_sha256": "83698d47230f240b1da98e00809354266dde8df03e0a6ebfba448d380729693a"
+    },
+    "CRGPolynomialGrowth.lean": {
+      "current_sha256": "864df52218a90c4b9ece708e635089d061029c35dddf6949a9075aa42334cf46",
+      "previous_sha256": "864df52218a90c4b9ece708e635089d061029c35dddf6949a9075aa42334cf46"
+    },
+    "WimanValironLargeAngular.lean": {
+      "current_sha256": "048d5b25988e6dd5a1c3767a96cb920f7f0ddc4f31c241073dddef5547a7320a",
+      "previous_sha256": "048d5b25988e6dd5a1c3767a96cb920f7f0ddc4f31c241073dddef5547a7320a"
+    },
+    "LevinGeometry.lean": {
+      "current_sha256": "30873d0f1a0d698d379d3bacc0bbcc0e93ee6895865daf6395c106776d76a34a",
+      "previous_sha256": "30873d0f1a0d698d379d3bacc0bbcc0e93ee6895865daf6395c106776d76a34a"
+    },
+    "InceExponentialConjugation.lean": {
+      "current_sha256": "fe489b70a6542e624ff2f2212f5baf5d67f32054bdc663c559d464f4ecd26d1d",
+      "previous_sha256": "fe489b70a6542e624ff2f2212f5baf5d67f32054bdc663c559d464f4ecd26d1d"
+    },
+    "InceSolutionSpace.lean": {
+      "current_sha256": "3ac5b24ce7ef6bb0786fff5855393d12cc97000d9ed0d60c6616be7cad3e962d",
+      "previous_sha256": "3ac5b24ce7ef6bb0786fff5855393d12cc97000d9ed0d60c6616be7cad3e962d"
+    },
+    "LiWangWenCorollary33.lean": {
+      "current_sha256": "4c9f8dda7559f54a8d5822860fb14c820290b5e48f480e9373ffbb58981afc67",
+      "previous_sha256": "a1e247e6493c8e7844c79725f27c941e2b6da6890d0c503b1170aa5f3e35551f"
+    },
+    "HelmrathBranchSelection.lean": {
+      "current_sha256": "53903bffef124d6082e11a557d5ce2326b9b16633b120a084d00366eac7ccc4d",
+      "previous_sha256": "53903bffef124d6082e11a557d5ce2326b9b16633b120a084d00366eac7ccc4d"
+    },
+    "WimanValironDerivativeAsymptotics.lean": {
+      "current_sha256": "cd33947723b540b37b9b0cf4c859c1678c60b91662be44d77b3da8f2a5a632d6",
+      "previous_sha256": "cd33947723b540b37b9b0cf4c859c1678c60b91662be44d77b3da8f2a5a632d6"
+    },
+    "NormalFormGoal.lean": {
+      "current_sha256": "07e9abe054763068de339875f0d8f25dd349a0a4a19a5e020b4950244aebf1b1",
+      "previous_sha256": "07e9abe054763068de339875f0d8f25dd349a0a4a19a5e020b4950244aebf1b1"
+    },
+    "HelmrathODEGrowth.lean": {
+      "current_sha256": "2e27b355600ae2d9a5cf4ab639aa39d75a4dde101b8f3c4779e3293516bc4df7",
+      "previous_sha256": "2e27b355600ae2d9a5cf4ab639aa39d75a4dde101b8f3c4779e3293516bc4df7"
+    },
+    "LiWangWenFloquetCoefficientEquations.lean": {
+      "current_sha256": "0af176704c7a6bc98c3496d67506c6e5575a32a291c3a2d0b4bb471b47b3481d",
+      "previous_sha256": "0af176704c7a6bc98c3496d67506c6e5575a32a291c3a2d0b4bb471b47b3481d"
+    },
+    "LiWangWenFourierPolynomial.lean": {
+      "current_sha256": "07ae97332200bc148a90937dd771d8e0e95944eadb09d231e5ce4d9f4cf8cd18",
+      "previous_sha256": "07ae97332200bc148a90937dd771d8e0e95944eadb09d231e5ce4d9f4cf8cd18"
+    },
+    "LiWangWenWimanValironStrip.lean": {
+      "current_sha256": "2060388ebfa2a34da59e28c0beb7429618850866f4f5d21f780b1856f2a097d0",
+      "previous_sha256": "2060388ebfa2a34da59e28c0beb7429618850866f4f5d21f780b1856f2a097d0"
+    },
+    "LiWangWenCore.lean": {
+      "current_sha256": "32ef7d90abc7b17dacfcfde49ea3d42788776003bfe7c05842e58f8ccb4f3cf4",
+      "previous_sha256": "32ef7d90abc7b17dacfcfde49ea3d42788776003bfe7c05842e58f8ccb4f3cf4"
+    },
+    "Audit.lean": {
+      "current_sha256": "2918292f5c192dab2516180a21753552eea546b74c8c9e35d59008f6f59c1c6b",
+      "previous_sha256": "6f6b3a7ba67c473444ed5e154073dce7c149f894d2a549c9cf24d709d8e9138d"
+    },
+    "WimanValironTaylorMoments.lean": {
+      "current_sha256": "53677d157dc3fe4bc5696ab57390ccfa36f693b9e352673e78c8322367a98eb3",
+      "previous_sha256": "53677d157dc3fe4bc5696ab57390ccfa36f693b9e352673e78c8322367a98eb3"
+    },
+    "WimanValironHigherDerivatives.lean": {
+      "current_sha256": "b957b7db287e104c8c7a192d7df7d6309e6d02d1f3511fc08cc7741e4d170b84",
+      "previous_sha256": "b957b7db287e104c8c7a192d7df7d6309e6d02d1f3511fc08cc7741e4d170b84"
+    },
+    "LiWangWenPeriodicity.lean": {
+      "current_sha256": "8e409f5fbc2ce75dd755f12cbe2a9958ff97dc6f369a34ec044608867c8c1062",
+      "previous_sha256": "8e409f5fbc2ce75dd755f12cbe2a9958ff97dc6f369a34ec044608867c8c1062"
+    },
+    "LiWangWenSpectralBudget.lean": {
+      "current_sha256": "e5b119fa14d26f939ea61e117e2d688aced925f2c6367cec51829b02fde5b047",
+      "previous_sha256": "e5b119fa14d26f939ea61e117e2d688aced925f2c6367cec51829b02fde5b047"
+    },
+    "LiWangWenCoefficientExtraction.lean": {
+      "current_sha256": "446717ba7b01361e36f94b5ce54b4f5341a59c7dcb97533ff9ae2c5352a8f40d",
+      "previous_sha256": "446717ba7b01361e36f94b5ce54b4f5341a59c7dcb97533ff9ae2c5352a8f40d"
+    },
+    "LiWangWenFourierRecurrence.lean": {
+      "current_sha256": "066d8830e05b0148eb85294f17df3879e88429f4f27f26b7714b25f30cf14651",
+      "previous_sha256": "066d8830e05b0148eb85294f17df3879e88429f4f27f26b7714b25f30cf14651"
+    },
+    "WimanValironGoodRadii.lean": {
+      "current_sha256": "7f0c128cfd8dfe5bb1fe338d1f7b8c447123fe6acb10fe32d132b03bb36d1208",
+      "previous_sha256": "7f0c128cfd8dfe5bb1fe338d1f7b8c447123fe6acb10fe32d132b03bb36d1208"
+    },
+    "WimanValironGrowthBridge.lean": {
+      "current_sha256": "179503cdc7359fbd1a2ff977c9a4c59f660b5e8f7746c1007310f2a7e1c54566",
+      "previous_sha256": "179503cdc7359fbd1a2ff977c9a4c59f660b5e8f7746c1007310f2a7e1c54566"
+    },
+    "LiWangWenFiniteOrderRecurrence.lean": {
+      "current_sha256": "06afc758252b188811df326bcce6d0fa0d2b12fbc1e09dbac0f3cc4367a6a1b6",
+      "previous_sha256": "06afc758252b188811df326bcce6d0fa0d2b12fbc1e09dbac0f3cc4367a6a1b6"
+    },
+    "LiWangWenFloquetNormalization.lean": {
+      "current_sha256": "cffa17860d27c0865bf28224c3f4e5811b9ed849fb45b634fcf014c619b35584",
+      "previous_sha256": "d9411b1687f1ee65726da471d09b1388fc3b3ba610e6637db299a0897e133162"
+    },
+    "LiWangWenExamples.lean": {
+      "current_sha256": "a18d93134f10544e7661b82ce7f487631d44dbb7cfe19ff3df89f22b0c762080",
+      "previous_sha256": "a18d93134f10544e7661b82ce7f487631d44dbb7cfe19ff3df89f22b0c762080"
+    },
+    "WimanValironCircleBounds.lean": {
+      "current_sha256": "5ae68ac32dd16cde88fcdc2fa9daf38f54cd4302ed1ebfbed0ad36b79cd448e4",
+      "previous_sha256": "5ae68ac32dd16cde88fcdc2fa9daf38f54cd4302ed1ebfbed0ad36b79cd448e4"
+    },
+    "LiWangWenFrequencyRepresentation.lean": {
+      "current_sha256": "12c79a83f4e62da6948269b08c2b287f38875771ec2e5a6e3c4a60e26bdab248",
+      "previous_sha256": "12c79a83f4e62da6948269b08c2b287f38875771ec2e5a6e3c4a60e26bdab248"
+    },
+    "LiWangWenRepresentation.lean": {
+      "current_sha256": "7815eedb39eec92165dbd93d77f318e1d3bc873f81e9b3b2305c0611e2716595",
+      "previous_sha256": "7815eedb39eec92165dbd93d77f318e1d3bc873f81e9b3b2305c0611e2716595"
+    },
+    "LiWangWenFloquetIndicial.lean": {
+      "current_sha256": "3f091c0c7e699f100f67cde61e1e2356ef1b835cb57c4aa7dfab9bf90941aead",
+      "previous_sha256": "09fd1c1f01b951553b896c3b8891075b4fbd82b424ebec2dad028ca4771ee3d8"
+    },
+    "HelmrathSingleBranch.lean": {
+      "current_sha256": "f5e34587d24ae01dea5b8aa80d835b02a6954ed339e42208ae2bac5c76a52c47",
+      "previous_sha256": "f5e34587d24ae01dea5b8aa80d835b02a6954ed339e42208ae2bac5c76a52c47"
+    },
+    "WimanValironWeightedMoments.lean": {
+      "current_sha256": "bdac55f646beaf1129eba73acac624df7d268c577a06145fb5e3b02fbcf2fc8f",
+      "previous_sha256": "bdac55f646beaf1129eba73acac624df7d268c577a06145fb5e3b02fbcf2fc8f"
+    },
+    "WimanValironAngularEstimate.lean": {
+      "current_sha256": "c14122802d1d0c5c170695fd29375393345ca4a8e1061e4a97626fa80e1fec27",
+      "previous_sha256": "c14122802d1d0c5c170695fd29375393345ca4a8e1061e4a97626fa80e1fec27"
+    },
+    "LiWangWenWimanValironGroups.lean": {
+      "current_sha256": "7cd8c8e4e81b3fe8733e29f68d11d67876dcd4d4356cf0d68a13dbd6686ef6d7",
+      "previous_sha256": "7cd8c8e4e81b3fe8733e29f68d11d67876dcd4d4356cf0d68a13dbd6686ef6d7"
+    },
+    "LiWangWenLemma51.lean": {
+      "current_sha256": "a554c29263dcd664ffd86b148a7df01b6de90fb0ac728e93bcb0493dbad897a6",
+      "previous_sha256": "a554c29263dcd664ffd86b148a7df01b6de90fb0ac728e93bcb0493dbad897a6"
+    },
+    "WimanValironLinearType.lean": {
+      "current_sha256": "69c435114da35e93f20a0760455ca2fb9cbd00e2d058e48eec71149c9f3fc87d",
+      "previous_sha256": "69c435114da35e93f20a0760455ca2fb9cbd00e2d058e48eec71149c9f3fc87d"
+    },
+    "LiWangWenFiniteOrderFloquet.lean": {
+      "current_sha256": "3088d328a383bbab3fd06ab28fa19194695c6d7e9642fc6f4320fa2c1ce23650",
+      "previous_sha256": "3088d328a383bbab3fd06ab28fa19194695c6d7e9642fc6f4320fa2c1ce23650"
+    },
+    "WimanValironLogarithmicMeasure.lean": {
+      "current_sha256": "4ac16fa462fefef393f1568118fdbca0ec79535fbe640d3de85c3822d7179e39",
+      "previous_sha256": "4ac16fa462fefef393f1568118fdbca0ec79535fbe640d3de85c3822d7179e39"
+    },
+    "LiWangWenWimanValironLower.lean": {
+      "current_sha256": "c7f3a4f31d8a41d80248a93897b38503c39dcf5582c07849e9ab3973119244f5",
+      "previous_sha256": "c7f3a4f31d8a41d80248a93897b38503c39dcf5582c07849e9ab3973119244f5"
+    },
+    "LiWangWenBoundedFloquet.lean": {
+      "current_sha256": "93cac50e97a93a12c7f749c9fd58a6df0cb6e1973faaf5461f425bf04d62e909",
+      "previous_sha256": "d0302cb3b4ea5a055b37dbfb2dd56ed1ee28e710546a024e34054c06719f6fa2"
+    },
+    "WimanValironComparisonSequence.lean": {
+      "current_sha256": "e46a2b02c76df6bcb4c1b7ddd3e9eaac380cf941a02e09bf21fbba7890c468c6",
+      "previous_sha256": "e46a2b02c76df6bcb4c1b7ddd3e9eaac380cf941a02e09bf21fbba7890c468c6"
+    },
+    "CRGRay.lean": {
+      "current_sha256": "c3decd96d8f7174c47c2b33ff2de8870b81dee3080bf2c9772ecd95df2a9fa37",
+      "previous_sha256": "c3decd96d8f7174c47c2b33ff2de8870b81dee3080bf2c9772ecd95df2a9fa37"
+    },
+    "LiWangWenGrowth.lean": {
+      "current_sha256": "eb996980cff79e8bab12b76bbf25503f2b953b676efba3eed391b47809212682",
+      "previous_sha256": "eb996980cff79e8bab12b76bbf25503f2b953b676efba3eed391b47809212682"
+    },
+    "WimanValironCauchyTransfer.lean": {
+      "current_sha256": "3e2eb6018c5c80ccef761d0da4d16433de756ead16583663a38fe60ec6018605",
+      "previous_sha256": "3e2eb6018c5c80ccef761d0da4d16433de756ead16583663a38fe60ec6018605"
+    },
+    "LiWangWenTheorem31.lean": {
+      "current_sha256": "f5f7c2aceddedf2731590b4331452114e4ac19bd67e100970285c62aac4bcf5f",
+      "previous_sha256": null
+    },
+    "HelmrathODEApplication.lean": {
+      "current_sha256": "c03192fd49c0f55945971a6bec8275e36c2bb7296a89027e06ee3fdede4dfffb",
+      "previous_sha256": "c03192fd49c0f55945971a6bec8275e36c2bb7296a89027e06ee3fdede4dfffb"
+    },
+    "LiWangWenCorollary33Matrix.lean": {
+      "current_sha256": "738a89fc99352ddb15600a164f222fceece12b0eb2ebee01248cfd3456eaf6a6",
+      "previous_sha256": null
+    },
+    "LiWangWenWimanValironAsymptotic.lean": {
+      "current_sha256": "30621d6d3fe188a8e427d14a6d84f604ad6aa2cee91f42804f7b1b21377e2bef",
+      "previous_sha256": "30621d6d3fe188a8e427d14a6d84f604ad6aa2cee91f42804f7b1b21377e2bef"
+    },
+    "LiWangWenExponentialSumGrowth.lean": {
+      "current_sha256": "40997e938ea74bea62703269af535dd5d7abbe99e55666bc591c54b759ead4f3",
+      "previous_sha256": "40997e938ea74bea62703269af535dd5d7abbe99e55666bc591c54b759ead4f3"
+    },
+    "LiWangWenWimanValironEndpoint.lean": {
+      "current_sha256": "2a528f86410705be9592041e79e0e8bd92525277fdb2f2619be3cef2334f68d3",
+      "previous_sha256": "2a528f86410705be9592041e79e0e8bd92525277fdb2f2619be3cef2334f68d3"
+    },
+    "WimanValironFiniteOrder.lean": {
+      "current_sha256": "d1975c07360c490af5bc7766e71c165f0310a649794bba2f59de11eb262638bc",
+      "previous_sha256": "d1975c07360c490af5bc7766e71c165f0310a649794bba2f59de11eb262638bc"
+    },
+    "LiWangWenPolynomiality.lean": {
+      "current_sha256": "fb51671e847ff9db89b803bf13e197dc9131fdcbdeb556665f9deb6eb18d71c2",
+      "previous_sha256": "fb51671e847ff9db89b803bf13e197dc9131fdcbdeb556665f9deb6eb18d71c2"
+    },
+    "InceFiniteDifference.lean": {
+      "current_sha256": "823cc0a96d78a0a4dc108a8c516baf16912d0f178e9ff120d2b7aa98737963c2",
+      "previous_sha256": "823cc0a96d78a0a4dc108a8c516baf16912d0f178e9ff120d2b7aa98737963c2"
+    }
+  }
+}

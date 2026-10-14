@@ -1,0 +1,31 @@
+{
+  "paper": "Li, Wang and Wen, J. Differential Equations 423 (2025), 118-132",
+  "doi": "10.1016/j.jde.2024.12.035",
+  "copied_modules": {
+    "CRGExponentialCoefficients": "571871651a694dd1c1e11d7d7d2dcc91ed0b47c75340b38096c14c61b3a8b9f7",
+    "CRGOrder": "c89372135e4049c0a03df673347ac75efa71d5fb84cd9ac0301709387765010a",
+    "CRGPolynomialGrowth": "864df52218a90c4b9ece708e635089d061029c35dddf6949a9075aa42334cf46",
+    "CRGProgress": "69b6b129e7c4f4d0c35adefa4e2ae0ff2ac3e4a8a04d85c9aa01a149a2096714",
+    "CRGRay": "c3decd96d8f7174c47c2b33ff2de8870b81dee3080bf2c9772ecd95df2a9fa37",
+    "LevinDensity": "982d64576ccc864e03a82bad38fa9468b171cd54a495c3d1273393cbb83aee5a",
+    "LevinGeometry": "30873d0f1a0d698d379d3bacc0bbcc0e93ee6895865daf6395c106776d76a34a",
+    "LevinGrowth": "0a5b3be2e2f356a05d4ca67786ba00faf90d98eb195852712841f64c6a5f3ea8",
+    "NormalFormGoal": "07e9abe054763068de339875f0d8f25dd349a0a4a19a5e020b4950244aebf1b1",
+    "WasowPolynomialPhase": "1f2442ded24539993f3d33148347fa90144290cbac5d38307796761399a597b5"
+  },
+  "note": "Local reusable proofs copied without altering the source project; no coverage claim for the full paper.",
+  "continuation": {
+    "date": "2026-10-12",
+    "source_chat_id": "01a0f4a6-2185-7130-b125-4f1701757c7c",
+    "source_directory": "/Users/lxy/Documents/Codex/2026-10-01/crg-theorem-1-1-formalization/outputs/li-wang-wen-representation-lean",
+    "original_sources_preserved": true,
+    "local_artifacts": "Rebuilt in this continuation; only pinned dependency caches shared.",
+    "verified_milestones": [
+      "Helmrath central-index single-branch asymptotic",
+      "Theorem 3.5 generic exponential-sum representation for every natural gamma and nonzero frequency",
+      "Lemma 5.1 via independent representation",
+      "Lemma 5.1 via direct Wiman–Valiron two-sided central-index bounds",
+      "Actual Li–Wang–Wen monic equation: global nu(r)/r -> C > 0 by normalized endpoint root candidates and monotone branch selection"
+    ]
+  }
+}

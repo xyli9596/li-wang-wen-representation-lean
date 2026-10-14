@@ -1,0 +1,818 @@
+import CRGExponentialCoefficients
+import CRGOrder
+import CRGPolynomialGrowth
+import CRGProgress
+import CRGRay
+import HelmrathBranchSelection
+import HelmrathExceptionalSet
+import HelmrathNewtonBalance
+import HelmrathNewtonBranches
+import HelmrathODEApplication
+import HelmrathODECoefficients
+import HelmrathODEGrowth
+import HelmrathRootApplication
+import HelmrathRootClustering
+import HelmrathSingleBranch
+import InceDifferencePolynomial
+import InceExponentialConjugation
+import InceFiniteDifference
+import InceFloquet
+import IncePeriodic
+import InceSolutionSpace
+import LevinDensity
+import LevinGeometry
+import LevinGrowth
+import LiWangWenBoundedFloquet
+import LiWangWenCoefficientExtraction
+import LiWangWenCore
+import LiWangWenCorollary33
+import LiWangWenCorollary33Matrix
+import LiWangWenDifferenceGrowth
+import LiWangWenExamples
+import LiWangWenExponentialSumAlgebra
+import LiWangWenExponentialSumGrowth
+import LiWangWenFiniteOrderBounds
+import LiWangWenFiniteOrderFloquet
+import LiWangWenFiniteOrderRecurrence
+import LiWangWenFloquet
+import LiWangWenFloquetCoefficientEquations
+import LiWangWenFloquetIndicial
+import LiWangWenFloquetNormalization
+import LiWangWenFourier
+import LiWangWenFourierDecay
+import LiWangWenFourierLaurent
+import LiWangWenFourierPolynomial
+import LiWangWenFourierReconstruction
+import LiWangWenFourierRecurrence
+import LiWangWenFourierSupport
+import LiWangWenFrequencyDirect
+import LiWangWenFrequencyRepresentation
+import LiWangWenGrowth
+import LiWangWenLaurentNormalization
+import LiWangWenLemma51
+import LiWangWenLemma51Direct
+import LiWangWenLemma51Periodic
+import LiWangWenLemma52
+import LiWangWenLemma52Prime
+import LiWangWenMatrix31
+import LiWangWenPeriodicExponentialType
+import LiWangWenPeriodicity
+import LiWangWenPolynomialNormalization
+import LiWangWenPolynomiality
+import LiWangWenRepresentation
+import LiWangWenSpectralBudget
+import LiWangWenStirlingIdentity
+import LiWangWenTheorem31
+import LiWangWenTheorem32
+import LiWangWenTheorem35Direct
+import LiWangWenVerticalGrowth
+import LiWangWenWimanValironAsymptotic
+import LiWangWenWimanValironEndpoint
+import LiWangWenWimanValironGroups
+import LiWangWenWimanValironLower
+import LiWangWenWimanValironLowerBound
+import LiWangWenWimanValironStrip
+import LiWangWenWimanValironUpper
+import NormalFormGoal
+import WasowPolynomialPhase
+import WimanValironAngularEstimate
+import WimanValironBookEstimates
+import WimanValironCauchyTransfer
+import WimanValironCircleBounds
+import WimanValironComparisonSequence
+import WimanValironDerivativeAsymptotics
+import WimanValironExceptionalRadii
+import WimanValironFiniteOrder
+import WimanValironGoodRadii
+import WimanValironGrowthBridge
+import WimanValironHigherDerivatives
+import WimanValironLargeAngular
+import WimanValironLimits
+import WimanValironLinearType
+import WimanValironLocalAngular
+import WimanValironLogarithmicMeasure
+import WimanValironMaximumTerm
+import WimanValironNormalRadii
+import WimanValironQuantitativeDerivatives
+import WimanValironTaylorMoments
+import WimanValironTheorem
+import WimanValironWeightedMoments
+
+/- Unified axiom audit of every explicit per-module audit. -/
+
+#print axioms CRGExponentialCoefficients.normalizedExponent_zero
+#print axioms CRGExponentialCoefficients.normalized_term
+#print axioms CRGExponentialCoefficients.grouped_sum
+#print axioms CRGExponentialCoefficients.distinct_normalized_nonconstant
+#print axioms CRGOrder.UpperOrder.mono
+#print axioms CRGOrder.eventually_mul_rpow_le
+#print axioms CRGOrder.upperOrder_of_finiteType
+#print axioms CRGOrder.le_upperOrder_of_positiveType
+#print axioms CRGOrder.finitePositiveType_isOrder
+#print axioms CRGPolynomialGrowth.derivative_growth
+#print axioms CRGPolynomialGrowth.exists_polynomial_of_growth
+#print axioms CRGProgress.eventually_det_ne_zero
+#print axioms CRGProgress.polynomial_exp_integrable
+#print axioms CRGProgress.perturbation_integrable
+#print axioms CRGProgress.exists_small_tail
+#print axioms CRGProgress.gauge_cancellation
+#print axioms CRGProgress.conjugated_perturbation_bound
+#print axioms CRGProgress.derivative_of_gauged_vector
+#print axioms CRGRay.residual_identity
+#print axioms CRGRay.exact_reduced_equation
+#print axioms CRGRay.residual_bound
+#print axioms CRGRay.polynomial_exp_decay
+#print axioms CRGRay.logarithmic_comparison
+#print axioms CRGRay.exponential_kernel_bound
+#print axioms CRGRay.integral_kernel_bound
+#print axioms CRGRay.vanishing_kernel_integral
+#print axioms CRGRay.phase_degree_le
+#print axioms CRGRay.phase_degree_le_order
+#print axioms CRGRay.companion_correction
+#print axioms CRGRay.fixed_point_of_norm_bound
+#print axioms CRGRay.measure_limit_unique
+#print axioms CRGRay.l1_limit_unique
+#print axioms HelmrathBranchSelection.finite_monotone_stabilizes
+#print axioms HelmrathBranchSelection.exists_geometric_good_radii
+#print axioms HelmrathBranchSelection.branch_le_of_close_radii
+#print axioms HelmrathBranchSelection.eventually_one_band
+#print axioms HelmrathBranchSelection.eventually_power_lt_of_exponent_lt
+#print axioms HelmrathBranchSelection.exists_separated_power_bands
+#print axioms HelmrathBranchSelection.exists_single_power_branch_zero_density
+#print axioms HelmrathBranchSelection.exists_single_power_branch
+#print axioms HelmrathBranchSelection.exists_single_power_branch_finset
+#print axioms HelmrathExceptionalSet.exists_good_radius
+#print axioms HelmrathExceptionalSet.exists_scale_below
+#print axioms HelmrathExceptionalSet.exists_scale_above
+#print axioms HelmrathExceptionalSet.remove_zero_density_exception
+#print axioms HelmrathExceptionalSet.zero_density_of_finite_logarithmic_measure
+#print axioms HelmrathExceptionalSet.remove_finite_logarithmic_exception
+#print axioms HelmrathNewtonBalance.tendsto_div_rpow_of_lt
+#print axioms HelmrathNewtonBalance.unique_max_not_eventually_zero
+#print axioms HelmrathNewtonBalance.exists_other_max
+#print axioms HelmrathNewtonBalance.rational_of_equal_weights
+#print axioms HelmrathNewtonBalance.order_one_of_equal_degrees
+#print axioms HelmrathNewtonBalance.rational_of_vanishing_sum
+#print axioms HelmrathNewtonBalance.order_one_of_vanishing_sum
+#print axioms HelmrathNewtonBalance.scaled_ode_identity
+#print axioms HelmrathNewtonBranches.exists_comparable_terms
+#print axioms HelmrathNewtonBranches.exists_comparable_monomials
+#print axioms HelmrathNewtonBranches.radialMonomial_pos
+#print axioms HelmrathNewtonBranches.log_radialMonomial
+#print axioms HelmrathNewtonBranches.candidateSlope_mem
+#print axioms HelmrathNewtonBranches.one_le_abs_nat_sub
+#print axioms HelmrathNewtonBranches.log_band_of_comparable
+#print axioms HelmrathNewtonBranches.power_band_of_log_band
+#print axioms HelmrathNewtonBranches.bandConstant_pos
+#print axioms HelmrathNewtonBranches.exists_newton_power_band
+#print axioms HelmrathNewtonBranches.positive_slope_of_power_upper
+#print axioms HelmrathNewtonBranches.exists_positive_newton_power_band
+#print axioms HelmrathNewtonBranches.eventually_positive_newton_power_bands
+#print axioms HelmrathNewtonBranches.candidateSlope_eq_one_of_common_diagonal
+#print axioms HelmrathNewtonBranches.linear_band_of_common_degree
+#print axioms HelmrathODE.norm_scaled_term
+#print axioms HelmrathODE.scaled_ode_sum
+#print axioms HelmrathODE.polynomial_ode_newton_power_bands
+#print axioms HelmrathODE.common_degree_polynomial_ode_linear_bands
+#print axioms HelmrathODE.polynomial_normalized_tendsto
+#print axioms HelmrathODE.eventually_uniform_multiplier_bounds
+#print axioms HelmrathODE.common_degree_polynomial_ode_exponentialBound
+#print axioms HelmrathODE.common_degree_polynomial_ode_finiteOrder
+#print axioms HelmrathODE.factor_scaled_term
+#print axioms HelmrathODE.polynomial_ode_root_candidates
+#print axioms HelmrathRootClustering.eventually_near_roots
+#print axioms HelmrathRootClustering.eventually_near_nonzero_roots
+#print axioms HelmrathRootClustering.rootModuli_finite
+#print axioms HelmrathRootClustering.rootModuli_pos
+#print axioms HelmrathRootClustering.eventually_near_rootModuli
+#print axioms HelmrathRootClustering.normalized_monomial
+#print axioms HelmrathRootClustering.cpow_negative_tendsto_zero
+#print axioms HelmrathRootClustering.edgePolynomial_eval
+#print axioms HelmrathRootClustering.edgePolynomial_ne_zero
+#print axioms HelmrathRootClustering.edgePolynomial_residual_tendsto_zero
+#print axioms HelmrathRootClustering.weight_le_edgeHeight
+#print axioms HelmrathRootClustering.exists_weight_eq_edgeHeight
+#print axioms HelmrathRootClustering.mem_rootCandidates
+#print axioms HelmrathRootClustering.rootCandidates_finite
+#print axioms HelmrathRootClustering.fixed_band_root_approximation
+#print axioms HelmrathRootClustering.finite_bands_root_approximation
+#print axioms HelmrathODE.polynomial_ode_single_branch
+#print axioms IncePeriodic.complexBernoulli_shift
+#print axioms IncePeriodic.complexBernoulli_natDegree_le
+#print axioms IncePeriodic.differencePrimitive_difference
+#print axioms IncePeriodic.differencePrimitive_natDegree_le
+#print axioms IncePeriodic.exists_polynomial_difference_primitive
+#print axioms IncePeriodic.exponentialRemoval_entire
+#print axioms IncePeriodic.logarithmicExponent_multiplier
+#print axioms IncePeriodic.difference_exponentialRemoval
+#print axioms IncePeriodic.difference_pow_exponentialRemoval
+#print axioms IncePeriodic.difference_pow_eq_zero_of_generalizedEigenvector
+#print axioms IncePeriodic.difference_entire
+#print axioms IncePeriodic.finite_difference_representation
+#print axioms IncePeriodic.hasFloquetRepresentation_zero
+#print axioms IncePeriodic.HasFloquetRepresentation.add
+#print axioms IncePeriodic.hasFloquetRepresentation_of_polynomial
+#print axioms IncePeriodic.linearEquiv_pow_injective
+#print axioms IncePeriodic.zero_multiplier_kernel
+#print axioms IncePeriodic.floquet_of_generalized_kernels
+#print axioms IncePeriodic.finiteDimensional_floquet
+#print axioms IncePeriodic.entire_solution_floquet
+#print axioms IncePeriodic.solves_translate
+#print axioms IncePeriodic.periodic_factor
+#print axioms IncePeriodic.reconstruct_factor
+#print axioms IncePeriodic.eigenfunction_factorization
+#print axioms IncePeriodic.periodic_of_jordan_step
+#print axioms IncePeriodic.entire_jordan_remainder
+#print axioms IncePeriodic.differentiated_equation
+#print axioms IncePeriodic.all_derivatives_zero_of_zero_jet
+#print axioms IncePeriodic.eq_zero_of_zero_jet
+#print axioms IncePeriodic.jetMap_injective
+#print axioms IncePeriodic.solutionSpace_finiteDimensional
+#print axioms IncePeriodic.finrank_solutionSpace_le
+#print axioms IncePeriodic.translateEquiv_apply
+#print axioms LevinDensity.local_volume_ne_top
+#print axioms LevinDensity.radialDensity_nonneg
+#print axioms LevinDensity.radialDensity_mono
+#print axioms LevinDensity.radialDensity_le_iff
+#print axioms LevinDensity.zeroRadialDensity_iff_tendsto
+#print axioms LevinDensity.ZeroRadialDensity.mono
+#print axioms LevinDensity.radialDensity_iUnion_le
+#print axioms LevinDensity.zeroRadialDensity_iUnion_of_summable_bound
+#print axioms LevinDensity.exists_truncation_zeroRadialDensity
+#print axioms LevinDensity.exists_zeroRadialDensity_eventually_contains
+#print axioms LevinDensity.exists_measurable_zeroRadialDensity_eventually_contains
+#print axioms LevinDensity.exists_common_exceptional_set
+#print axioms LevinDensity.zeroRadialDensity_tail_iInter
+#print axioms LevinDensity.exists_common_exceptional_set_of_small_density
+#print axioms LevinDensity.exists_common_exceptional_set_of_density_bounds
+#print axioms LevinDensity.zeroRadialDensity_Iic
+#print axioms LevinDensity.radialDensity_union_le
+#print axioms LevinDensity.ZeroRadialDensity.union
+#print axioms LevinDensity.exists_common_exceptional_set_of_eventual_density_bounds
+#print axioms LevinGeometry.measurableSet_radialShadow
+#print axioms LevinGeometry.norm_mem_radialShadow
+#print axioms LevinGeometry.radius_le_mass
+#print axioms LevinGeometry.small_radius_at_large_center
+#print axioms LevinGeometry.radialShadow_volume_bound
+#print axioms LevinGeometry.radialShadow_zero_density
+#print axioms LevinGrowth.norm_rayPoint
+#print axioms LevinGrowth.finitePositiveType_nontrivial
+#print axioms LevinGrowth.entire_zeroSet_countable
+#print axioms LevinGrowth.zeroRadii_countable
+#print axioms LevinGrowth.zeroRadii_zero_density
+#print axioms LevinGrowth.nonzero_of_not_zeroRadii
+#print axioms LevinGrowth.exists_zero_free_sphere_between
+#print axioms LevinGrowth.diskRegular_radialRegular
+#print axioms LevinGrowth.radialRegular_rayRegular
+#print axioms LiWangWen.generalized_solution_floquet_block
+#print axioms LiWangWen.bounded_finiteOrder_floquet_blocks
+#print axioms LiWangWen.periodic_monomial_coefficients_exp_bound
+#print axioms LiWangWen.periodic_monomial_coefficients_exp_bound_range
+#print axioms LiWangWen.polynomial_coefficients_of_exp_bound
+#print axioms LiWangWen.polynomial_coefficients_of_exponential_sum_bound
+#print axioms LiWangWen.polynomial_coefficients_of_exp_bound_range
+#print axioms LiWangWen.lift_hasDerivAt
+#print axioms LiWangWen.lift_entire
+#print axioms LiWangWen.deriv_lift
+#print axioms LiWangWen.iteratedDeriv_lift
+#print axioms LiWangWen.residual_lift
+#print axioms LiWangWen.polynomial_eq_zero_of_exp_eval
+#print axioms LiWangWen.transformed_eq_zero_iff
+#print axioms LiWangWen.shiftedEuler_eval_zero
+#print axioms LiWangWen.iterate_shiftedEuler_eval_zero
+#print axioms LiWangWen.transformed_eval_zero
+#print axioms LiWangWen.indicial_eq_zero_of_normalized_solution
+#print axioms LiWangWen.shiftedEuler_C
+#print axioms LiWangWen.iterate_shiftedEuler_C
+#print axioms LiWangWen.pure_exponential_solves
+#print axioms LiWangWen.finiteOrder_solution_has_eigenfunction
+#print axioms LiWangWen.finiteOrder_solution_has_normalized_polynomial_solution
+#print axioms LiWangWen.corollary_3_3
+#print axioms LiWangWen.finiteOrder_solution_has_normalized_polynomial_solution_recurrence
+#print axioms LiWangWen.corollary_3_3_recurrence
+#print axioms LiWangWen.corollary_3_3_matrix
+#print axioms LiWangWen.corollary_3_3_matrix_recurrence
+#print axioms LiWangWen.ExponentialBound.neg
+#print axioms LiWangWen.ExponentialBound.sub
+#print axioms LiWangWen.ExponentialBound.const_mul
+#print axioms LiWangWen.ExponentialBound.difference
+#print axioms LiWangWen.ExponentialBound.iterated_difference
+#print axioms LiWangWen.ExponentialBound.remove_exponential
+#print axioms LiWangWen.example36_polynomial_identity
+#print axioms LiWangWen.example36_solution
+#print axioms LiWangWen.example37_identity_negI
+#print axioms LiWangWen.example37_identity_negOne
+#print axioms LiWangWen.example37_solution_negI
+#print axioms LiWangWen.example37_solution_negOne
+#print axioms LiWangWen.isExponentialSum_of_fintype
+#print axioms LiWangWen.isExponentialSum_zero
+#print axioms LiWangWen.IsExponentialSum.add
+#print axioms LiWangWen.IsExponentialSum.polynomial_mul
+#print axioms LiWangWen.IsExponentialSum.exp_mul
+#print axioms LiWangWen.isExponentialSum_finset_sum
+#print axioms LiWangWen.isExponentialSum_list_sum
+#print axioms LiWangWen.IsExponentialSum.exponentialBound
+#print axioms LiWangWen.IsExponentialSum.grouped
+#print axioms LiWangWen.strict_real_projection
+#print axioms LiWangWen.polynomial_ray_exp_decay
+#print axioms LiWangWen.exponential_sum_dominant_ray_limit
+#print axioms LiWangWen.ExponentialBound.finiteType_one
+#print axioms LiWangWen.positiveType_of_dominant_ray
+#print axioms LiWangWen.IsExponentialSum.finitePositiveType_one
+#print axioms LiWangWen.IsExponentialSum.isOrder_one
+#print axioms LiWangWen.power_bound_of_finiteOrder
+#print axioms LiWangWen.PowerExponentialBound.finiteOrder
+#print axioms LiWangWen.PowerExponentialBound.raise
+#print axioms LiWangWen.power_bound_const
+#print axioms LiWangWen.power_bound_id
+#print axioms LiWangWen.power_bound_exp
+#print axioms LiWangWen.PowerExponentialBound.mul
+#print axioms LiWangWen.PowerExponentialBound.add
+#print axioms LiWangWen.PowerExponentialBound.neg
+#print axioms LiWangWen.PowerExponentialBound.sub
+#print axioms LiWangWen.PowerExponentialBound.translate
+#print axioms LiWangWen.PowerExponentialBound.const_mul
+#print axioms LiWangWen.PowerExponentialBound.pow
+#print axioms LiWangWen.power_bound_poly_comp
+#print axioms LiWangWen.power_bound_sum
+#print axioms LiWangWen.PowerExponentialBound.difference
+#print axioms LiWangWen.PowerExponentialBound.remove_exponential
+#print axioms LiWangWen.periodic_monomial_coefficients_power_bound
+#print axioms LiWangWen.periodic_monomial_coefficients_power_bound_range
+#print axioms LiWangWen.powerBoundSolutionSpace_finiteDimensional
+#print axioms LiWangWen.hasFiniteOrderFloquetBlocks_zero
+#print axioms LiWangWen.HasFiniteOrderFloquetBlocks.add
+#print axioms LiWangWen.finiteOrder_floquet_blocks
+#print axioms LiWangWen.polynomial_exp_finiteOrder_floquet_blocks
+#print axioms LiWangWen.paper_finiteOrder_floquet_blocks
+#print axioms LiWangWen.vanishing_tail_of_strict_future_increase
+#print axioms LiWangWen.factorial_weight_future
+#print axioms LiWangWen.factorial_rapid_recurrence_eventually_zero
+#print axioms LiWangWen.polynomial_nat_norm_bound
+#print axioms LiWangWen.polynomial_nat_eventually_norm_lower
+#print axioms LiWangWen.polynomial_recurrence_norm_bound
+#print axioms LiWangWen.polynomial_recurrence_eventually_zero
+#print axioms LiWangWen.integer_polynomial_recurrence_positive_tail
+#print axioms LiWangWen.integer_polynomial_recurrence_negative_tail
+#print axioms LiWangWen.integer_polynomial_recurrence_finite_support
+#print axioms LiWangWen.frequencyPeriod_ne_zero
+#print axioms LiWangWen.frequency_coefficients_periodic
+#print axioms LiWangWen.frequency_entire_solution_floquet
+#print axioms LiWangWen.frequency_entire_solution_floquet_of_leading_power
+#print axioms LiWangWen.paper_entire_solution_floquet
+#print axioms LiWangWen.periodic_polynomial_eq_zero
+#print axioms LiWangWen.floquetDerivativePolynomial_periodic
+#print axioms LiWangWen.floquetDerivativePolynomial_eval
+#print axioms LiWangWen.floquetEquationPolynomial_periodic
+#print axioms LiWangWen.floquetEquationPolynomial_eq_zero
+#print axioms LiWangWen.floquetDerivativePolynomial_coeff
+#print axioms LiWangWen.floquetMonomialContribution_eq_zero_of_lt
+#print axioms LiWangWen.floquetMonomialContribution_diagonal
+#print axioms LiWangWen.floquet_block_coefficient_equation
+#print axioms LiWangWen.floquet_block_triangular_equation
+#print axioms LiWangWen.verticalFourierCoeff_floquetContribution
+#print axioms LiWangWen.floquet_indicial_root_at_lowest_frequency
+#print axioms LiWangWen.finite_fourier_lift_of_lower_bound
+#print axioms LiWangWen.normalized_floquet_solution_block_of_finiteFourier
+#print axioms LiWangWen.normalized_floquet_solution_block
+#print axioms LiWangWen.normalized_floquet_solution_block_recurrence
+#print axioms LiWangWen.fourierWeight_entire
+#print axioms LiWangWen.fourierWeight_periodic
+#print axioms LiWangWen.vertical_integral_eq
+#print axioms LiWangWen.verticalFourierCoeff_eq
+#print axioms LiWangWen.norm_verticalFourierCoeff_le
+#print axioms LiWangWen.eventually_log_power_le_nat
+#print axioms LiWangWen.factorial_pow_le_exp_log
+#print axioms LiWangWen.verticalFourierCoeff_factorial_decay
+#print axioms LiWangWen.verticalFourierCoeff_factorial_decay_pos
+#print axioms LiWangWen.verticalFourierCoeff_factorial_decay_neg
+#print axioms LiWangWen.fourier_recurrence_sum_shift
+#print axioms LiWangWen.exists_nonzero_fourierRecurrencePolynomial
+#print axioms LiWangWen.exists_fourier_polynomial_recurrence_of_nonzero
+#print axioms LiWangWen.periodic_finiteOrder_fourier_support_of_nonzero_residual
+#print axioms LiWangWen.periodic_finiteOrder_fourier_support_of_leading_power
+#print axioms LiWangWen.fourierRecurrenceBase_coeff
+#print axioms LiWangWen.fourierRecurrencePolynomial_eval
+#print axioms LiWangWen.fourierRecurrencePolynomial_eq_zero_iff
+#print axioms LiWangWen.fourierRecurrencePolynomial_zero_ne_zero
+#print axioms LiWangWen.fourierRecurrencePolynomial_eq_zero_above
+#print axioms LiWangWen.fourierRecurrence_uniform_balance_of_balance
+#print axioms LiWangWen.exists_fourier_polynomial_recurrence_of_balance
+#print axioms LiWangWen.exists_fourier_polynomial_recurrence
+#print axioms LiWangWen.vertical_slice_periodic
+#print axioms LiWangWen.verticalCircle_coe
+#print axioms LiWangWen.fourier_two_pi
+#print axioms LiWangWen.verticalCircle_fourierCoeff
+#print axioms LiWangWen.finite_fourier_reconstruction
+#print axioms LiWangWen.finite_fourier_support_representation
+#print axioms LiWangWen.finite_fourier_support_isExponentialSum
+#print axioms LiWangWen.entire_deriv
+#print axioms LiWangWen.verticalFourierCoeff_zero
+#print axioms LiWangWen.verticalFourierCoeff_const_mul
+#print axioms LiWangWen.fourierWeight_intervalIntegrable
+#print axioms LiWangWen.verticalFourierCoeff_add
+#print axioms LiWangWen.verticalFourierCoeff_sub
+#print axioms LiWangWen.verticalFourierCoeff_sum
+#print axioms LiWangWen.vertical_integral_deriv_eq_zero
+#print axioms LiWangWen.verticalFourierCoeff_deriv
+#print axioms LiWangWen.verticalFourierCoeff_exp_mul
+#print axioms LiWangWen.periodic_deriv
+#print axioms LiWangWen.shiftedDeriv_entire
+#print axioms LiWangWen.shiftedDeriv_periodic
+#print axioms LiWangWen.iterate_shiftedDeriv_entire
+#print axioms LiWangWen.iterate_shiftedDeriv_periodic
+#print axioms LiWangWen.deriv_exp_mul
+#print axioms LiWangWen.iteratedDeriv_exp_mul
+#print axioms LiWangWen.verticalFourierCoeff_shiftedDeriv
+#print axioms LiWangWen.verticalFourierCoeff_iterate_shiftedDeriv
+#print axioms LiWangWen.verticalFourierCoeff_polynomial_exp_mul
+#print axioms LiWangWen.verticalFourierCoeff_shiftedOperator
+#print axioms LiWangWen.verticalFourierCoeff_inhomogeneous_balance
+#print axioms LiWangWen.verticalFourierCoeff_ode_balance
+#print axioms LiWangWen.hasFiniteFourierSupport_zero
+#print axioms LiWangWen.HasFiniteFourierSupport.add
+#print axioms LiWangWen.HasFiniteFourierSupport.const_mul
+#print axioms LiWangWen.HasFiniteFourierSupport.neg
+#print axioms LiWangWen.HasFiniteFourierSupport.sub
+#print axioms LiWangWen.hasFiniteFourierSupport_sum
+#print axioms LiWangWen.HasFiniteFourierSupport.deriv
+#print axioms LiWangWen.HasFiniteFourierSupport.shiftedDeriv
+#print axioms LiWangWen.HasFiniteFourierSupport.iterate_shiftedDeriv
+#print axioms LiWangWen.HasFiniteFourierSupport.exp_mul
+#print axioms LiWangWen.HasFiniteFourierSupport.polynomial_exp_mul
+#print axioms LiWangWen.hasFiniteFourierSupport_of_tail
+#print axioms LiWangWen.HasFiniteFourierSupport.exists_tail
+#print axioms LiWangWen.frequency_finiteOrder_solution_isExponentialSum_direct
+#print axioms LiWangWen.frequency_theorem_3_5_direct
+#print axioms LiWangWen.frequency_finiteOrder_iff_isExponentialSum_direct
+#print axioms LiWangWen.PowerExponentialBound.comp_const_mul
+#print axioms LiWangWen.finiteOrder_comp_const_mul
+#print axioms LiWangWen.IsExponentialSum.comp_const_mul
+#print axioms LiWangWen.frequency_rescaled_leading_value
+#print axioms LiWangWen.solves_frequency_rescale
+#print axioms LiWangWen.frequency_finiteOrder_solution_isExponentialSum
+#print axioms LiWangWen.frequency_finiteOrder_solution_isExponentialSum_of_leading_power
+#print axioms LiWangWen.frequency_finiteOrder_iff_isExponentialSum
+#print axioms LiWangWen.bound_const
+#print axioms LiWangWen.bound_id
+#print axioms LiWangWen.bound_exp
+#print axioms LiWangWen.ExponentialBound.add
+#print axioms LiWangWen.ExponentialBound.mul
+#print axioms LiWangWen.ExponentialBound.pow
+#print axioms LiWangWen.bound_poly_comp
+#print axioms LiWangWen.bound_lift
+#print axioms LiWangWen.ExponentialBound.finiteOrder
+#print axioms LiWangWen.corollary_3_4
+#print axioms LiWangWen.bound_sum
+#print axioms LiWangWen.IsExponentialSum.finiteOrder
+#print axioms LiWangWen.finite_fourier_normalized_lift
+#print axioms LiWangWen.lemma_5_1
+#print axioms LiWangWen.leading_power_solution_order_and_type
+#print axioms LiWangWen.frequency_solution_order_and_type
+#print axioms LiWangWen.lemma_5_1_centralIndex_linear_bounds
+#print axioms LiWangWen.lemma_5_1_direct
+#print axioms LiWangWen.periodic_finiteOrder_fourier_support_of_balance
+#print axioms LiWangWen.periodic_finiteOrder_fourier_support_of_residual
+#print axioms LiWangWen.periodic_finiteOrder_solution_fourier_support
+#print axioms LiWangWen.finite_fourier_support_of_bound
+#print axioms LiWangWen.periodic_finiteOrder_solution_isExponentialSum
+#print axioms LiWangWen.periodic_polynomial_coefficients_exp_bound
+#print axioms LiWangWen.lemma_5_2
+#print axioms LiWangWen.lemma_5_2_with_exponential_factor
+#print axioms LiWangWen.exponentialBound_of_finitePositiveType_one
+#print axioms LiWangWen.lemma_5_2_mean_type
+#print axioms LiWangWen.punctured_comp_exp_differentiable
+#print axioms LiWangWen.laurent_polynomial_of_exp_bound
+#print axioms LiWangWen.punctured_polynomial_coefficients_exp_bound
+#print axioms LiWangWen.lemma_5_2_prime
+#print axioms LiWangWen.lemma_5_2_prime_symmetric
+#print axioms LiWangWen.lemma_5_2_prime_of_representation
+#print axioms LiWangWen.lemma_5_2_prime_of_representation_symmetric
+#print axioms LiWangWen.lemma_5_2_prime_holomorphic_at_zero
+#print axioms LiWangWen.lemma_5_2_prime_entire
+#print axioms LiWangWen.iteratedDeriv_polynomial_eval
+#print axioms LiWangWen.fallingEuler_eval
+#print axioms LiWangWen.paperMatrixOperator_eval
+#print axioms LiWangWen.paperMatrix_pointwise_iff
+#print axioms LiWangWen.paperM_lower_zero
+#print axioms LiWangWen.paperQ_lower_zero
+#print axioms LiWangWen.falling_add
+#print axioms LiWangWen.shiftedEuler_eq_paperQM
+#print axioms LiWangWen.paperQM_column
+#print axioms LiWangWen.paperMatrixOperator_eq_transformed
+#print axioms LiWangWen.paperMatrix_eq_zero_iff
+#print axioms LiWangWen.paperMatrix_eval_zero
+#print axioms LiWangWen.verticalFourierCoeff_eq_zero_of_exponential_bound
+#print axioms LiWangWen.periodic_exponentialBound_finiteFourier_support
+#print axioms LiWangWen.periodic_exponentialBound_isExponentialSum
+#print axioms LiWangWen.exponentialPeriod_ne_zero
+#print axioms LiWangWen.coefficients_periodic
+#print axioms LiWangWen.paper_solves_translate
+#print axioms LiWangWen.ExponentialBound.translate
+#print axioms LiWangWen.polynomial_origin_factor
+#print axioms LiWangWen.lift_origin_factor
+#print axioms LiWangWen.normalize_polynomial_lift_solution
+#print axioms LiWangWen.lift_ne_zero_of_polynomial_ne_zero
+#print axioms LiWangWen.norm_log_le_of_one_le
+#print axioms LiWangWen.polynomial_of_exp_bound
+#print axioms LiWangWen.floquetMonomialContribution_entire
+#print axioms LiWangWen.floquetMonomialContribution_finiteFourier
+#print axioms LiWangWen.floquet_block_coefficients_finiteFourier_of_nonzero
+#print axioms LiWangWen.finiteOrderFloquetBlock_isExponentialSum_of_nonzero
+#print axioms LiWangWen.finiteOrder_solution_isExponentialSum
+#print axioms LiWangWen.finiteOrder_solution_isExponentialSum_of_leading_eval
+#print axioms LiWangWen.finiteOrder_solution_isExponentialSum_of_leading_power
+#print axioms LiWangWen.finiteOrder_iff_isExponentialSum
+#print axioms LiWangWen.finiteOrder_solution_exponentialBound
+#print axioms LiWangWen.finiteOrder_solution_exponentialBound_of_leading_eval
+#print axioms LiWangWen.finiteOrder_solution_exponentialBound_of_leading_power
+#print axioms LiWangWen.generalizedEigenvector_dimension_power
+#print axioms LiWangWen.generalizedEigenspace_finrank_sum_le
+#print axioms LiWangWen.power_eq_stirling_descPochhammer
+#print axioms LiWangWen.theorem_3_1
+#print axioms LiWangWen.paperMatrix_indicial_root_of_normalized
+#print axioms LiWangWen.normalize_paperMatrix_solution
+#print axioms LiWangWen.theorem_3_2
+#print axioms LiWangWen.theorem_3_2_polynomial_factors
+#print axioms LiWangWen.theorem_3_2_recurrence
+#print axioms LiWangWen.theorem_3_2_polynomial_factors_recurrence
+#print axioms LiWangWen.finiteOrder_solution_exponentialBound_direct
+#print axioms LiWangWen.FiniteOrderFloquetBlock.entire
+#print axioms LiWangWen.FiniteOrderFloquetBlock.finiteOrder
+#print axioms LiWangWen.direct_floquet_coefficients_exponentialBound
+#print axioms LiWangWen.direct_floquetBlock_isExponentialSum
+#print axioms LiWangWen.finiteOrder_solution_isExponentialSum_direct
+#print axioms LiWangWen.theorem_3_5_direct
+#print axioms LiWangWen.periodic_power_bound_horizontal
+#print axioms LiWangWen.periodic_finiteOrder_verticalPowerBound
+#print axioms LiWangWen.ExponentialBound.verticalPowerBound
+#print axioms LiWangWen.VerticalPowerBound.raise
+#print axioms LiWangWen.VerticalPowerBound.mul
+#print axioms LiWangWen.VerticalPowerBound.add
+#print axioms LiWangWen.verticalPowerBound_finset_sum
+#print axioms LiWangWen.verticalPowerBound_list_sum
+#print axioms LiWangWen.finiteOrderFloquetBlock_verticalPowerBound
+#print axioms LiWangWen.finiteOrder_solution_verticalPowerBound
+#print axioms LiWangWen.eventually_logarithmic_power_le_radius
+#print axioms LiWangWen.VerticalPowerBound.logarithmic_strip
+#print axioms LiWangWen.eventually_near_positive_rootModuli
+#print axioms LiWangWen.linear_asymptotic_of_endpoint_polynomial
+#print axioms LiWangWen.centralIndex_asymptotic_of_endpoint_polynomial
+#print axioms LiWangWen.finiteOrder_solution_deep_WV_data
+#print axioms LiWangWen.polynomial_exponential_endpoint_product
+#print axioms LiWangWen.lemma_5_1_centralIndex_asymptotic
+#print axioms LiWangWen.lemma_5_1_via_single_branch
+#print axioms LiWangWen.endpointPolynomial_eval
+#print axioms LiWangWen.endpointPolynomial_eval_zero
+#print axioms LiWangWen.endpointPolynomial_ne_zero
+#print axioms LiWangWen.endpoint_product_eval_zero_ne
+#print axioms LiWangWen.endpoint_zero_mul_bounded
+#print axioms LiWangWen.endpoint_perturbation_tendsto_zero
+#print axioms LiWangWen.endpoint_positive_frequency_tendsto_zero
+#print axioms LiWangWen.endpointPolynomial_eval_bounded
+#print axioms LiWangWen.left_endpoint_tendsto_zero
+#print axioms LiWangWen.reverse_frequency_balance
+#print axioms LiWangWen.right_endpoint_tendsto_zero
+#print axioms LiWangWen.endpoint_product_tendsto_zero
+#print axioms LiWangWen.angular_error_linear_radial_bound
+#print axioms LiWangWen.mem_exponentialDegreeSupport
+#print axioms LiWangWen.exponentialDegreeSupport_nonempty
+#print axioms LiWangWen.eval_eq_sum_exponentialDegreeSupport
+#print axioms LiWangWen.polynomial_exponential_grouping
+#print axioms LiWangWen.exists_group_max_index
+#print axioms LiWangWen.exists_group_min_index
+#print axioms LiWangWen.exponential_ode_large_w_strip
+#print axioms LiWangWen.exponential_ode_small_w_strip
+#print axioms LiWangWen.exponential_ode_large_w_strip_threshold
+#print axioms LiWangWen.angular_decay_mul_pow_tendsto_zero
+#print axioms LiWangWen.exp_div_pow_tendsto_zero_of_left_displacement
+#print axioms LiWangWen.polynomial_exp_perturbation_normalized_tendsto_zero
+#print axioms LiWangWen.small_logDerivative_balance_impossible
+#print axioms LiWangWen.small_logDerivative_ode_balance_impossible
+#print axioms LiWangWen.ode_balance_of_derivativeRatio
+#print axioms LiWangWen.no_small_logDerivative_at_left_WV_points
+#print axioms LiWangWen.monic_no_small_logDerivative_at_left_WV_points
+#print axioms LiWangWen.direct_small_logDerivative_impossible_of_strip
+#print axioms LiWangWen.exists_eventually_pos_le_of_no_zero_subfilter
+#print axioms LiWangWen.abs_log_le_log_of_inv_radius_le
+#print axioms LiWangWen.direct_centralIndex_eventually_linear_lower
+#print axioms LiWangWen.monic_direct_centralIndex_eventually_linear_lower
+#print axioms LiWangWen.perturbed_polynomial_max_normalized
+#print axioms LiWangWen.perturbed_polynomial_min_normalized
+#print axioms LiWangWen.logarithmic_strip_of_comparable_groups
+#print axioms LiWangWen.eventually_logarithmic_strip_of_normalized_groups
+#print axioms LiWangWen.solution_large_ratio_maximum_log_strip
+#print axioms LiWangWen.finiteOrder_solution_direct_centralIndex_linear_upper
+#print axioms LiWangWen.finiteOrder_solution_direct_exponentialBound
+#print axioms LiWangWen.centralIndex_linear_of_large_ratio_circle_bound
+#print axioms LiWangWen.centralIndex_linear_of_large_ratio_maximum_strip
+#print axioms LiWangWen.exponentialBound_of_large_ratio_maximum_strip
+#print axioms LiWangWen.centralIndex_linear_of_large_ratio_log_strip
+#print axioms WasowPolynomialPhase.zeroConstantPrimitive_coeff_zero
+#print axioms WasowPolynomialPhase.derivative_zeroConstantPrimitive
+#print axioms WasowPolynomialPhase.rootOnRay_one
+#print axioms WasowPolynomialPhase.phase_hasDerivAt
+#print axioms WimanValiron.norm_exp_I_mul_sub_one_sub_le
+#print axioms WimanValiron.angular_sum_second_moment_bound
+#print axioms WimanValiron.first_moment_bound_of_angular_error
+#print axioms WimanValiron.first_moment_bound_optimized
+#print axioms WimanValiron.angular_sum_first_moment_bound
+#print axioms WimanValiron.summable_first_moment_of_second
+#print axioms WimanValiron.angular_tsum_second_moment_bound
+#print axioms WimanValiron.angular_tsum_first_moment_bound
+#print axioms WimanValiron.angular_tsum_first_moment_relative
+#print axioms WimanValiron.circleMaximum_le_tsum_term
+#print axioms WimanValiron.book_normalized_moment_bound
+#print axioms WimanValiron.book_weighted_moment_bound
+#print axioms WimanValiron.book_maximum_modulus_bound
+#print axioms WimanValiron.scaled_iteratedDeriv_normalized_monomial
+#print axioms WimanValiron.cauchy_transfer_of_monomial_circle_bound
+#print axioms WimanValiron.cauchy_transfer_of_monomial_increment_bound
+#print axioms WimanValiron.norm_powerSeries_term_le_geometric
+#print axioms WimanValiron.norm_le_maximumTerm_div
+#print axioms WimanValiron.norm_le_maximumTerm_div_on_circle
+#print axioms WimanValiron.taylorCoeff_iteratedDeriv
+#print axioms WimanValiron.hasSum_iteratedDeriv_taylorCoeff
+#print axioms WimanValiron.hasSum_pow_mul_iteratedDeriv
+#print axioms WimanValiron.comparisonSequence_pos
+#print axioms WimanValiron.comparisonLog_succ
+#print axioms WimanValiron.comparisonSequence_strictMono
+#print axioms WimanValiron.comparisonSequence_bounded
+#print axioms WimanValiron.comparisonLog_add
+#print axioms WimanValiron.comparisonLog_increment_lower
+#print axioms WimanValiron.sum_range_succ_real
+#print axioms WimanValiron.comparison_right_gaussian
+#print axioms WimanValiron.normal_right_gaussian
+#print axioms WimanValiron.comparison_left_gaussian
+#print axioms WimanValiron.normal_left_gaussian
+#print axioms WimanValiron.tendsto_descFactorial_div_pow
+#print axioms WimanValiron.tendsto_descFactorial_div_pow_comp
+#print axioms WimanValiron.derivativeRatio_tendsto_of_fallingFactorial_error
+#print axioms WimanValiron.derivative_eq_with_relative_error
+#print axioms WimanValiron.derivativeRatio_sub_descFactorial_bound
+#print axioms WimanValiron.derivativeRatio_tendsto_of_monomial_circle_bound
+#print axioms WimanValiron.derivativeRatio_error_bound_of_near_maximum
+#print axioms WimanValiron.derivativeRatio_tendsto_of_near_maximum
+#print axioms WimanValiron.index_lower_set_le
+#print axioms WimanValiron.indexThreshold_between
+#print axioms WimanValiron.indexThreshold_pos
+#print axioms WimanValiron.fixed_index_or_crossing
+#print axioms WimanValiron.normal_fixed_index_or_closed_gap
+#print axioms WimanValiron.indexGapEndpoints_countable
+#print axioms WimanValiron.indexExceptionalSet_measurable
+#print axioms WimanValiron.closed_gap_subset_indexExceptionalSet
+#print axioms WimanValiron.fixed_index_outside_exceptional
+#print axioms WimanValiron.finiteLogarithmicMeasure_indexExceptionalSet
+#print axioms WimanValiron.exists_exceptional_set_normal_radii
+#print axioms WimanValiron.centralIndex_polynomial_bound
+#print axioms WimanValiron.centralIndex_eventually_le_power
+#print axioms WimanValiron.exists_arbitrarily_large_good_radius
+#print axioms WimanValiron.good_radii_neBot
+#print axioms WimanValiron.exists_maximum_point_near_maximum
+#print axioms WimanValiron.exists_arbitrarily_large_good_maximum_point
+#print axioms WimanValiron.maximumTerm_le_radius_ratio
+#print axioms WimanValiron.maximumTerm_add_one_le
+#print axioms WimanValiron.maximumTerm_add_nat_le
+#print axioms WimanValiron.maximumTerm_le_exp_of_centralIndex_le
+#print axioms WimanValiron.exponentialBound_of_centralIndex_le
+#print axioms WimanValiron.exponentialBound_of_centralIndex_eventually_le
+#print axioms WimanValiron.centralIndex_eventually_le_of_zero_density_exception
+#print axioms WimanValiron.exponentialBound_of_centralIndex_le_off_finite_logarithmic_set
+#print axioms WimanValiron.centeredFallingPolynomial_coeff_continuous
+#print axioms WimanValiron.centeredFallingPolynomial_natDegree_le
+#print axioms WimanValiron.centeredFallingPolynomial_zero_constant
+#print axioms WimanValiron.centeredFallingPolynomial_eval
+#print axioms WimanValiron.centeredFallingPolynomial_eval_index
+#print axioms WimanValiron.falling_average_eq_centered_moments
+#print axioms WimanValiron.falling_average_tendsto_one_of_centered_moments
+#print axioms WimanValiron.summable_nat_pow_taylorCoeff
+#print axioms WimanValiron.summable_polynomial_taylorCoeff
+#print axioms WimanValiron.summable_centered_taylorWeight
+#print axioms WimanValiron.centered_taylorWeight_zero
+#print axioms WimanValiron.falling_taylorWeight_eq_normalized_deriv
+#print axioms WimanValiron.normalized_deriv_tendsto_one_of_centered_moments
+#print axioms WimanValiron.inv_natIndex_tendsto_zero
+#print axioms WimanValiron.normalized_deriv_tendsto_one_of_nat_centered_moments
+#print axioms WimanValiron.wimanValiron_local_angular_linear
+#print axioms WimanValiron.linear_local_angular_error_tendsto_zero
+#print axioms WimanValiron.exists_deep_nearMaximum_WV_points
+#print axioms WimanValiron.centralIndex_error_power_tendsto_zero
+#print axioms WimanValiron.derivativeRatio_tendsto_one_of_power_error
+#print axioms WimanValiron.wimanValiron_asymptotic
+#print axioms WimanValiron.wimanValiron_asymptotic_formula
+#print axioms WimanValiron.wimanValiron_at_maximum_points
+#print axioms WimanValiron.maximumTerm_ge_radius_ratio
+#print axioms WimanValiron.positiveType_of_centralIndex_eventually_ge
+#print axioms WimanValiron.centralIndex_eventually_ge_of_zero_density_exception
+#print axioms WimanValiron.finitePositiveType_of_centralIndex_linear_bounds
+#print axioms WimanValiron.order_and_type_of_centralIndex_linear_bounds
+#print axioms WimanValiron.angular_deviation_le_moments
+#print axioms WimanValiron.angularRatio_bound_of_second_moment
+#print axioms WimanValiron.normal_angularRatio_bound
+#print axioms WimanValiron.angular_error_radial_bound
+#print axioms WimanValiron.wimanValiron_local_angular
+#print axioms WimanValiron.local_angular_error_tendsto_zero
+#print axioms WimanValiron.angularRatio_tendsto_one_of_local_bound
+#print axioms WimanValiron.angularRatio_nearMaximum
+#print axioms WimanValiron.abs_leftAngularStep
+#print axioms WimanValiron.norm_angular_rotation
+#print axioms WimanValiron.re_left_angular_rotation
+#print axioms WimanValiron.left_angular_rotation_re_le
+#print axioms WimanValiron.eventually_logarithmic_strip_small
+#print axioms WimanValiron.exists_eventually_left_nearMaximum
+#print axioms WimanValiron.logarithmicMeasure_Ioc
+#print axioms WimanValiron.logarithmicMeasure_Ioo_le
+#print axioms WimanValiron.logarithmicMeasure_comparisonGap_le
+#print axioms WimanValiron.logarithmicMeasure_iUnion_comparisonGap_le
+#print axioms WimanValiron.finiteLogarithmicMeasure_iUnion_comparisonGap
+#print axioms WimanValiron.finiteLogarithmicMeasure_of_comparisonGap_cover
+#print axioms WimanValiron.logarithmicMeasure_countable
+#print axioms WimanValiron.logarithmicMeasure_comparisonGaps_union_countable_le
+#print axioms WimanValiron.finiteLogarithmicMeasure_of_comparisonGap_cover_with_endpoints
+#print axioms WimanValiron.term_nonneg
+#print axioms WimanValiron.term_pos
+#print axioms WimanValiron.exists_last_maximum
+#print axioms WimanValiron.exists_centralIndex
+#print axioms WimanValiron.centralIndex_spec
+#print axioms WimanValiron.term_le_maximumTerm
+#print axioms WimanValiron.maximumTerm_pos
+#print axioms WimanValiron.centralIndex_unique
+#print axioms WimanValiron.coefficient_bound
+#print axioms WimanValiron.admissible_of_summable
+#print axioms WimanValiron.term_change_radius
+#print axioms WimanValiron.centralIndex_le_of_lt
+#print axioms WimanValiron.centralIndex_le
+#print axioms WimanValiron.maximumTerm_le
+#print axioms WimanValiron.hasSum_taylorCoeff
+#print axioms WimanValiron.taylor_terms_tendsto_zero
+#print axioms WimanValiron.exists_taylorCoeff_ne_zero
+#print axioms WimanValiron.taylor_admissible
+#print axioms WimanValiron.taylor_centralIndex_monotone
+#print axioms WimanValiron.centralIndex_gt_of_coefficient_bound
+#print axioms WimanValiron.centralIndex_tendsto_atTop
+#print axioms WimanValiron.taylor_support_unbounded
+#print axioms WimanValiron.taylor_centralIndex_tendsto_atTop
+#print axioms WimanValiron.taylor_term_le_circle_bound
+#print axioms WimanValiron.maximumTerm_le_circle_bound
+#print axioms WimanValiron.comparisonWeight_pos
+#print axioms WimanValiron.comparisonWeight_add
+#print axioms WimanValiron.comparison_term
+#print axioms WimanValiron.normal_coefficient_ratio
+#print axioms WimanValiron.normal_left_coefficient_ratio
+#print axioms WimanValiron.normal_right_coefficient_ratio
+#print axioms WimanValiron.left_comparison_product_le
+#print axioms WimanValiron.right_comparison_product_lt
+#print axioms WimanValiron.normal_isCentralIndex
+#print axioms WimanValiron.log_scaled_gap
+#print axioms WimanValiron.sum_log_gaps
+#print axioms WimanValiron.summable_log_gaps
+#print axioms WimanValiron.comparisonWeight_le_pow
+#print axioms WimanValiron.comparison_admissible
+#print axioms WimanValiron.normal_coefficient_ne_zero
+#print axioms WimanValiron.normalRadiusAt_scaled
+#print axioms WimanValiron.exists_normal_radius
+#print axioms WimanValiron.exists_normal_radius_ge
+#print axioms WimanValiron.fallingCoefficientBound_pos
+#print axioms WimanValiron.fallingConstantErrorBound_nonneg
+#print axioms WimanValiron.derivativeMomentConstant_nonneg
+#print axioms WimanValiron.norm_one_sub_nat_mul_le
+#print axioms WimanValiron.centeredFallingPolynomial_coeff_bound
+#print axioms WimanValiron.centeredFallingPolynomial_constant_error
+#print axioms WimanValiron.centered_polynomial_average_error
+#print axioms WimanValiron.normalized_deriv_error_le_centered_moments
+#print axioms WimanValiron.normalized_deriv_error_le_nat_centered_moments
+#print axioms WimanValiron.norm_le_circleMaximum
+#print axioms WimanValiron.exists_norm_eq_circleMaximum
+#print axioms WimanValiron.maximumTerm_le_circleMaximum
+#print axioms WimanValiron.circleMaximum_pos
+#print axioms WimanValiron.ofReal_realCenteredIndex
+#print axioms WimanValiron.summable_rawTaylorMoment
+#print axioms WimanValiron.norm_rawTaylorMoment_term
+#print axioms WimanValiron.summable_absoluteTaylorMoment
+#print axioms WimanValiron.norm_rawTaylorMoment_le
+#print axioms WimanValiron.centeredMoment_eq_raw_div
+#print axioms WimanValiron.angular_taylor_sum
+#print axioms WimanValiron.norm_angular_taylor_sum_le
+#print axioms WimanValiron.norm_rawTaylorMoment_one_le
+#print axioms WimanValiron.norm_centeredMoment_bound_of_raw
+#print axioms WimanValiron.norm_centeredMoment_bound_of_absolute
+#print axioms WimanValiron.norm_rawTaylorMoment_one_of_power_second
+#print axioms WimanValiron.norm_centeredMoment_one_of_power_second
+#print axioms WimanValiron.normal_absoluteTaylorMoment_bound
+#print axioms WimanValiron.wimanValiron_moment_exponents
+#print axioms WimanValiron.normal_centered_moments_bound
+#print axioms WimanValiron.normal_derivative_error_bound
+#print axioms WimanValiron.wimanValiron_quantitative
+#print axioms WimanValiron.wimanValiron_derivative_formula
+#print axioms WimanValiron.exponentialPowerConstant_pos
+#print axioms WimanValiron.exp_neg_le_power
+#print axioms WimanValiron.weighted_stretched_exp_le_power
+#print axioms WimanValiron.summable_weighted_stretched_exp
+#print axioms WimanValiron.weighted_gaussian_le_power
+#print axioms WimanValiron.right_kernel_power_majorant
+#print axioms WimanValiron.left_kernel_power_majorant
+#print axioms WimanValiron.momentPowerKernel_nonneg
+#print axioms WimanValiron.summable_momentPowerKernel
+#print axioms WimanValiron.tsum_le_twice_of_two_sided
+#print axioms WimanValiron.normal_absolute_moment_bound
+#print axioms WimanValiron.normal_normalized_moment_bound
