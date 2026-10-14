@@ -1,5 +1,5 @@
 name = "li_wang_wen_representation_lean"
-version = "0.1.0"
+version = "0.1.1"
 defaultTargets = ["Audit"]
 
 [[require]]
@@ -307,3 +307,6 @@ name = "LiWangWenTheorem31"
 
 [[lean_lib]]
 name = "LiWangWenTheorem32"
+
+[[lean_lib]]
+name = "LiWangWenExamples38_39"

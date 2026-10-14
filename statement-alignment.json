@@ -5,7 +5,7 @@
     "journal": "Journal of Differential Equations 423 (2025), 118–132",
     "doi": "10.1016/j.jde.2024.12.035"
   },
-  "scope": "The seven numbered main results listed below and the supplementary Lemma 5.2 prime; examples and unrelated CRG Theorem 1.1 excluded.",
+  "scope": "The seven numbered main results, supplementary Lemma 5.2 prime, and complete conclusions of Examples 3.8 and 3.9. Unrelated CRG Theorem 1.1 is in its separate project.",
   "verification": "verification/verification.json",
   "proof_route_audit": "verification/proof-routes.json",
   "entries": [
@@ -103,6 +103,30 @@
       "alignment": "From nonzero polynomial factors of strictly increasing degrees, coefficient functions holomorphic on C minus zero, and one global exponential bound for the whole sum, derives a finite Laurent representation for each coefficient on every nonzero w, with the literal symmetric integer range [-N,N]. The named-sum wrapper accepts g and its representation. Holomorphy at zero yields an ordinary polynomial on all of C.",
       "qualification": "No individual coefficient bound, finite Fourier support, Laurent representation, or holomorphy at zero is assumed for the Laurent conclusion. The value at zero is unconstrained until the holomorphic-at-zero corollary. Entirety of g is derivable from the coefficient hypotheses, so a separate entirety hypothesis is unnecessary.",
       "proof": "Polynomial-periodic coefficient extraction; proved periodic Fourier tail vanishing and reconstruction; evaluate at log w and use exp(log w)=w; pad finite support by zeros to a symmetric integer interval."
+    },
+    {
+      "paper_item": "Example 3.8",
+      "page": 124,
+      "files": [
+        "LiWangWenExamples38_39.lean"
+      ],
+      "entry_points": [
+        "LiWangWen.example38_finiteOrder_iff",
+        "LiWangWen.example38_linearIndependent"
+      ],
+      "verified_conclusion": "Every entire finite-order solution is exactly exp(z)*(A+B*z); every such function is an entire finite-order solution; exp(z) and z*exp(z) are linearly independent. The classification is derived without invoking Frei."
+    },
+    {
+      "paper_item": "Example 3.9",
+      "page": 124,
+      "files": [
+        "LiWangWenExamples38_39.lean"
+      ],
+      "entry_points": [
+        "LiWangWen.example39_no_nonzero_finiteOrder_solution",
+        "LiWangWen.example39_nonzero_solution_not_finiteOrder"
+      ],
+      "verified_conclusion": "Every nonzero entire solution of f''+f'+exp(z)*f=0 fails FiniteOrder. The polynomial top-coefficient obstruction and the normalized polynomial extraction are proved."
     }
   ]
 }

@@ -1,4 +1,4 @@
 .lake/
 __pycache__/
-*.olean
-*.ilean
+.DS_Store
+build-*.log

@@ -1,3 +1,4 @@
+import LiWangWenExamples38_39
 import CRGExponentialCoefficients
 import CRGOrder
 import CRGPolynomialGrowth
@@ -816,3 +817,17 @@ import WimanValironWeightedMoments
 #print axioms WimanValiron.tsum_le_twice_of_two_sided
 #print axioms WimanValiron.normal_absolute_moment_bound
 #print axioms WimanValiron.normal_normalized_moment_bound
+
+#print axioms LiWangWen.constantPlusX_polynomial_obstruction
+#print axioms LiWangWen.constantPlusX_finiteOrder_solution_zero
+#print axioms LiWangWen.ExponentialBound.iterated_derivative
+#print axioms LiWangWen.example39_no_nonzero_finiteOrder_solution
+#print axioms LiWangWen.example38_aux_equation
+#print axioms LiWangWen.affine_of_second_derivative_zero
+#print axioms LiWangWen.example38_classification
+#print axioms LiWangWen.example38_family_deriv
+#print axioms LiWangWen.example38_family_iteratedDeriv
+#print axioms LiWangWen.example38_family_solution
+#print axioms LiWangWen.example38_linearIndependent
+#print axioms LiWangWen.example38_finiteOrder_iff
+#print axioms LiWangWen.example39_nonzero_solution_not_finiteOrder

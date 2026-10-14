@@ -28,6 +28,12 @@ TOOLCHAIN_PIN = "leanprover/lean4:v4.33.0"
 ALLOWED_AXIOMS = {"propext", "Classical.choice", "Quot.sound"}
 CONFIG_FILES = ("lean-toolchain", "lake-manifest.json", "lakefile.toml", "verify.py")
 MILESTONES = {
+    'paper_example_3_8_complete_classification_verified':
+        ('LiWangWenExamples38_39.lean', 'LiWangWen.example38_finiteOrder_iff'),
+    'paper_example_3_8_linear_independence_verified':
+        ('LiWangWenExamples38_39.lean', 'LiWangWen.example38_linearIndependent'),
+    'paper_example_3_9_infinite_order_verified':
+        ('LiWangWenExamples38_39.lean', 'LiWangWen.example39_nonzero_solution_not_finiteOrder'),
     'paper_theorem_3_1_matrix_verified':
         ('LiWangWenTheorem31.lean', 'LiWangWen.theorem_3_1'),
     'paper_matrix_operator_identity_verified':

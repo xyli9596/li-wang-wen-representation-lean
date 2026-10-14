@@ -35,7 +35,7 @@ near-maximum error and a genuine finite-logarithmic-measure exceptional set.
 | Lemma 5.2 | Cancellation-safe polynomial coefficient extraction, including distinct-degree polynomial factors | `LiWangWen.lemma_5_2_mean_type` is the original mean-type entry; `LiWangWenLemma52.lean` extends `polynomial_coefficients_of_exp_bound` from monomials to nonzero polynomial factors with strictly increasing degrees. A finite exponential bound on the whole sum suffices; positive type is unnecessary. The paper assumes entire exp-coefficients, not arbitrary Laurent coefficients. |
 | Supplementary Lemma 5.2′ | Complete punctured-plane coefficient theorem with finite Laurent conclusion | `LiWangWenLemma52Prime.lean`: `lemma_5_2_prime_of_representation_symmetric` accepts the whole sum `g` and proves each coefficient equals a Laurent sum over `[-N,N]` on `w≠0`. The only growth assumption is on the whole sum. `lemma_5_2_prime_holomorphic_at_zero` and `lemma_5_2_prime_entire` give ordinary polynomials on all of `ℂ`. |
 | Examples 3.6–3.7 | Explicit solution substitutions checked | `LiWangWenExamples`. The finite-order space's dimension/classification is not proved by these examples. |
-| Examples 3.8–3.9 | Open | Remaining identities and the nonexistence/classification arguments. |
+| Examples 3.8–3.9 | Complete finite-order conclusions | `LiWangWenExamples38_39`: exact two-dimensional span in 3.8 and nonexistence in 3.9. |
 
 Here `P : Fin (n+1) → Polynomial ℂ` includes the highest derivative coefficient.
 The paper has `P n = 1` for gamma zero, and `P n = X^gamma` in general.
@@ -90,7 +90,7 @@ They are not all asserted to solve the same homogeneous equation (3.3).
 
 Separate further tasks include the precise Helmrath–Nikolaus
 maximum-modulus asymptotic and the complete classification arguments in
-Examples 3.6–3.9. They are not prerequisites for the numbered main results
+Examples 3.6–3.7. They are not prerequisites for the numbered main results
 listed above. This package is not a formalization of every sentence in the
 paper or of every classical theorem mentioned in its references.
 
@@ -357,7 +357,7 @@ See [the problem commentary](https://www.erdosproblems.com/516) and
 
 ## Build and audit
 
-**Fresh verification passed (14 October 2026): 100 modules, 716 distinct audited declarations, 0 warnings.** Every local module was recompiled. All audited declarations use only the three standard axioms listed in the report.
+**Fresh verification passed (14 October 2026): 101 modules, 729 distinct audited declarations, 0 warnings.** Every local module was recompiled. All audited declarations use only the three standard axioms listed in the report.
 
 The fresh report linked below is authoritative for this source snapshot.
 Do not use older counts or an earlier copy of the report for these new files.
@@ -449,3 +449,9 @@ Their value at zero is irrelevant to the Laurent theorem. Adding holomorphy
 at zero gives the ordinary-polynomial conclusion, with equality on all of
 `ℂ`. The public entry with a separately named `g` is
 `LiWangWen.lemma_5_2_prime_of_representation_symmetric`.
+
+## Examples 3.8 and 3.9
+
+Version 0.1.1 adds `LiWangWenExamples38_39.lean`. `example38_finiteOrder_iff` proves that the entire finite-order solutions of the actual third-order equation are exactly `exp(z)*(A+B*z)`, in both directions. `example38_linearIndependent` proves independence of the displayed two solutions. `example39_nonzero_solution_not_finiteOrder` proves that every nonzero entire solution of the second-order equation has infinite order.
+
+The proof does not assume Frei's theorem. A top-coefficient argument excludes polynomial solutions of a constant differential operator with an additional nonzero `exp(z)` multiple of the unknown. The already proved polynomial extraction excludes its finite-order entire solutions. In Example 3.8, Cauchy's estimate applies this argument to `(D-1)^2 f`, and the resulting equation `(D-1)^2 f=0` gives the complete classification. The full run covers 101 modules and 729 audited declarations.
